@@ -1,4 +1,5 @@
 # disability_services
+This is a Vue project for a new Disability Services page at Global.
 
 ## Project setup
 ```
@@ -7,7 +8,7 @@ npm install
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+npm run dev
 ```
 
 ### Compiles and minifies for production

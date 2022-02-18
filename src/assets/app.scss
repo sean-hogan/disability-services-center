@@ -1,0 +1,86 @@
+$red: #9e1831;
+$grey: rgb(242, 242, 242);
+$darkblue: #1c2333;
+$lightblue: #007bff;
+$enable-rounded: false;
+$primary: $darkblue;
+$info:$lightblue;
+//gen styles
+#app .section {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#app p:not(.lead),
+#app ul li {
+    font-size: 1.1rem;
+}
+
+//header styles
+#app .header {
+    color: $primary;
+}
+
+#app .header:after {
+    content: "";
+    display: block;
+    margin-bottom: 20px;
+    position: relative;
+    width: 60px;
+    height: 5px;
+    background-color: $lightblue;
+    margin-top: 10px;
+}
+
+#app h2 {
+    margin-top: 2rem;
+}
+
+#app h2:after {
+    content: "";
+    display: block;
+    margin-bottom: 20px;
+    position: relative;
+    width: 60px;
+    height: 3px;
+    background-color: $lightblue;
+    margin-top: 10px;
+}
+
+//basics card styles
+#app .card {
+    border-color: $primary;
+    border-radius: 4px;
+    box-shadow: 2px 5px 8px #ccc;
+}
+
+#app li {
+    margin-bottom: .7rem;
+}
+
+//button styles
+#app .btn {
+    font-weight: 700;
+}
+
+#app .btn-primary {
+    color: #fff
+}
+
+#app .btn-primary:hover {
+    background-color: #fff;
+    color: $primary;
+}
+
+#app .btn-outline-primary:hover {
+    color: #fff;
+}
+
+//grey bg
+#app .bg-grey {
+    background-color: $grey;
+}
+
+//Import BS after customizations
+@import "~bootstrap/scss/bootstrap";
+//Import bs-icons
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");

@@ -8,7 +8,7 @@
 
 
         <div class="header mb-4">
-          <h1 class="display-2">OnlineDisabilityResources</h1>
+          <h1 class="display-2">Online Disability Resources</h1>
       </div>
 
 <p class="lead">These resources and organizations address a wide number of needs and services.</p>

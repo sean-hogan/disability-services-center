@@ -15,7 +15,7 @@
 <p>
 </p><form action="https://espyr.personaladvantage.com/portal/landing" method="get">
 <input name="password" value="CSUGlobal" type="hidden">
-<button type="submit" class="btn btn-info" formtarget="_blank">Go To Webinars <span class="oi oi-arrow-right"></span></button>
+<button type="submit" class="btn btn-primary" formtarget="_blank">Go To Webinars <span class="oi oi-arrow-right"></span></button>
 </form><p></p>
 
 

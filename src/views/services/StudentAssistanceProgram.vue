@@ -8,7 +8,7 @@
 
 
         <div class="header mb-4">
-          <h1 class="display-2">StudentAssistanceProgram</h1>
+          <h1 class="display-2">Student Assistance Program</h1>
         </div>
 <p class="lead">CSU Global has partnered with ESPῩR to provide students and their family members with a comprehensive Student Assistance Program (SAP) that is free and confidential. The SAP is available 24 hours a day, 7 days a week.</p>
 

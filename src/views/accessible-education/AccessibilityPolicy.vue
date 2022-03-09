@@ -1,5 +1,5 @@
 <template>
-  <div class="Accessibility Policy section container">
+  <div class="Accessibility Policy section container pb-5">
     <div class="row pt-5">
       <div class="clearfix">
 

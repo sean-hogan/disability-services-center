@@ -1,5 +1,5 @@
 <template>
-  <div class="Wellness section container">
+  <div class="Wellness section container pb-5">
     <div class="row pt-5">
       <div class="clearfix">
 
@@ -16,7 +16,7 @@
 <p>
 </p><form action="https://care.espyr.com/" method="post">
 <input name="password" value="CSUGlobal" type="hidden">
-<button type="submit" class="btn btn-primary" formtarget="_blank">Go To Wellness Support Materials <span class="bi bi-arrow-right"></span></button>
+<button type="submit" class="btn btn-primary rounded-pill" formtarget="_blank">Go To Wellness Support Materials <span class="bi bi-box-arrow-up-right"></span></button>
 </form><p></p>
 
 

@@ -2,7 +2,6 @@
   <div class="home">
   <Banner />
   <Features />
-
   </div>
 </template>
 

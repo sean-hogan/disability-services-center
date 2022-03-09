@@ -1,5 +1,5 @@
 <template>
-  <div class="AssistiveToolsAndResources section container">
+  <div class="AssistiveToolsAndResources section container pb-5">
     <div class="row pt-5">
       <div class="clearfix">
 

@@ -1,5 +1,5 @@
 <template>
-<div class="greive section container">
+<div class="greive section container pb-5">
   <div class="row pt-5">
     <div class="clearfix">
     <div class="header mb-4">
@@ -67,7 +67,7 @@
 
       <p>
         <router-link to="/contact-us">
-        <button type="button" class="btn btn-primary">Contact Us</button></router-link        >
+        <button type="button" class="btn btn-primary rounded-pill">Contact Us</button></router-link        >
       </p>
     </div><!--end clearfix-->
   </div><!--end row-->

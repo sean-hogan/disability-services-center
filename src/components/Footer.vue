@@ -1,5 +1,5 @@
 <template>
-<div class="footer section mt-5">
+<div class="footer section">
     <div class="container-fluid">
      <footer>
          <div class="row mx-5 p-5">

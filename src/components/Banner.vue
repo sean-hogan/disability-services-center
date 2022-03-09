@@ -8,11 +8,11 @@
 
 
 	<p class="text-center"> 
-    <router-link to="/registration"><button type="button" class="btn btn-lg btn-outline-info mb-3 me-3">Get Started</button></router-link>
+    <router-link to="/registration"><button type="button" class="btn btn-lg btn-info mb-3 me-3 rounded-pill">Get Started</button></router-link>
   
-  <a href="mailto:ADA@csuglobal.edu?subject=Faculty%20Notification%20Request&amp;body=Hi There, I would like to request a faculty notification letter for my courses."><button type="button" class="btn btn-lg btn-outline-info mb-3 me-3">Request Faculty Notification</button></a>
- 
-  <a href="http://csuglobal.libguides.com/disability_services/contact_us"><button type="button" class="btn btn-lg btn-outline-info mb-3">Get Counseling</button></a>
+  <a href="mailto:ADA@csuglobal.edu?subject=Faculty%20Notification%20Request&amp;body=Hi There, I would like to request a faculty notification letter for my courses." class="text-decoration-none"><button type="button" class="btn btn-lg btn-info rounded-pill mb-3 d-inline-flex">Request Faculty Notification<i class="bi bi-envelope-fill align-self-center ms-2"></i></button></a>
+<!--  
+  <a href="http://csuglobal.libguides.com/disability_services/contact_us"><button type="button" class="btn btn-lg btn-outline-info mb-3">Get Counseling</button></a> -->
 
 </p>
   

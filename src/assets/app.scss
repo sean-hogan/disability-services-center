@@ -53,7 +53,7 @@ $info:$lightblue;
     box-shadow: 2px 5px 8px #ccc;
 }
 
-#app li {
+#app li:not(.dropdown-menu > li) {
     margin-bottom: .7rem;
 }
 

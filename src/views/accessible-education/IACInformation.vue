@@ -1,5 +1,5 @@
 <template>
-  <div class="IACInformation section container">
+  <div class="IACInformation section container pb-5">
     <div class="row pt-5">
       <div class="clearfix">
 

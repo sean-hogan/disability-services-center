@@ -1,5 +1,5 @@
 <template>
-  <div class="StudentAssistanceProgram section container">
+  <div class="StudentAssistanceProgram section container pb-5">
     <div class="row pt-5">
       <div class="clearfix">
 
@@ -15,7 +15,7 @@
 <p>
 </p><form action="https://care.espyr.com/" method="post">
 <input name="password" value="CSUGlobal" type="hidden">
-<button type="submit" class="btn btn-info" formtarget="_blank">Go To Student Assistance Portal <span class="oi oi-arrow-right"></span></button>
+<button type="submit" class="btn btn-info rounded-pill" formtarget="_blank">Go To Student Assistance Portal <span class="bi bi-box-arrow-up-right"></span></button>
 </form><p></p>
 
 <h2>Counseling Support</h2>

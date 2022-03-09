@@ -9,12 +9,9 @@
 
       <div class="ms-auto d-flex flex-row">
 
-      <router-link class="nav-link btn btn-outline-primary me-2" to="/registration">Register with Us</router-link>
-      
+      <router-link class="nav-link btn btn-primary rounded-pill me-2" to="/registration">Register with Us</router-link>
 
-      <a href="mailto:ADA@csuglobal.edu?subject=Faculty%20Notification%20Request&amp;body=Hi There, I would like to request a faculty notification letter for my courses." class="text-decoration-none">
-        <button type="button" class="nav-link btn btn-outline-primary">Request Faculty Notification</button>
-      </a>
+
 
       </div>
 
@@ -90,6 +87,9 @@
         <li class="nav-item px-3 ms-auto">
         <router-link class="nav-link" to="/contact-us">CONTACT US</router-link>
         </li>
+        
+      <!-- <a href="mailto:ADA@csuglobal.edu?subject=Faculty%20Notification%20Request&amp;body=Hi There, I would like to request a faculty notification letter for my courses." class="d-inline-flex align-items-center">Request Faculty Notification<i class="bi bi-envelope fs-3 ms-2"></i>
+      </a> -->
 
         </ul>
         </div><!--end collapse-->
@@ -137,13 +137,11 @@ export default {
 }
 
 #app .dropdown-menu{
-  margin-top:0px;
-}
-
-#app .btn-primary {
-  border-radius: 0;
-  color:#fff;
-  background:#aa1d40;
+  margin:0px;
+  // padding:0px;
+  background-image: linear-gradient(#fff, #fff), 
+        linear-gradient(#007bff, #007bff);
+    background-clip: content-box, padding-box;
 }
 
 .btn-primary:hover{ 

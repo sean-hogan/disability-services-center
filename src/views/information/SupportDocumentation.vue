@@ -1,5 +1,5 @@
 <template>
-  <div class="SupportDocumentation section container">
+  <div class="SupportDocumentation section container pb-5">
     <div class="row pt-5">
       <div class="clearfix">
 
@@ -34,7 +34,7 @@ This form authorizes the release of information regarding a student condition or
 <p><a href="mailto:ADA@csuglobal.edu">Request Faculty Notification of Academic Accommodations Letters</a><br>
 Once you are approved for academic accommodations, prior to the beginning of each academic term, you must request Faculty Notification of Academic Accommodations letters from Disability Services. You are responsible for sending the letter and discussing accommodations with each of your instructors during the first week of the term. Accommodations become effective the date the letter is delivered to your instructor and are not retroactive.</p>
 
-<p><router-link to="/contact-us"><button type="button" class="btn btn-primary">Contact Us</button></router-link></p>
+<p><router-link to="/contact-us"><button type="button" class="btn btn-primary rounded-pill">Contact Us</button></router-link></p>
 
     
     </div><!--end clearfix-->

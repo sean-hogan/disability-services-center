@@ -1,5 +1,5 @@
 <template>
-  <div class="Temporary Conditions section container">
+  <div class="Temporary Conditions section container pb-5">
     <div class="row pt-5">
       <div class="clearfix">
 
@@ -18,7 +18,7 @@
 </ul><p></p>
 <p>An instructor may request medical documentation specifying the condition and duration of the condition.</p>
 <p>Medical conditions that are considered temporary can include injuries, surgeries, or acute illnesses. If a student feels their attendance will be affected by a temporary medical condition, it is up to the student to contact their instructor and Student Success Counselor.</p>
-<p><router-link to="/contact-us"><button type="button" class="btn btn-primary">Contact Us</button></router-link></p>
+<p><router-link to="/contact-us"><button type="button" class="btn btn-primary rounded-pill">Contact Us</button></router-link></p>
     
     </div><!--end clearfix-->
     </div><!--end row-->

@@ -1,5 +1,5 @@
 <template>
-  <div class="Webinars section container">
+  <div class="Webinars section container pb-5">
     <div class="row pt-5">
       <div class="clearfix">
 
@@ -15,7 +15,7 @@
 <p>
 </p><form action="https://espyr.personaladvantage.com/portal/landing" method="get">
 <input name="password" value="CSUGlobal" type="hidden">
-<button type="submit" class="btn btn-primary" formtarget="_blank">Go To Webinars <span class="oi oi-arrow-right"></span></button>
+<button type="submit" class="btn btn-primary rounded-pill" formtarget="_blank">Go To Webinars <span class="bi bi-box-arrow-up-right"></span></button>
 </form><p></p>
 
 

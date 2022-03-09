@@ -1,5 +1,5 @@
 <template>
-  <div class="JobSearchResources section container">
+  <div class="JobSearchResources section container pb-5">
     <div class="row pt-5">
       <div class="clearfix">
 

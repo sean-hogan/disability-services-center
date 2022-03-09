@@ -1,5 +1,5 @@
 <template>
-  <div class="OnlineDisabilityResources section container">
+  <div class="OnlineDisabilityResources section container pb-5">
     <div class="row pt-5">
       <div class="clearfix">
 

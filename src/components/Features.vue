@@ -1,5 +1,5 @@
 <template>
-<div class="features section bg-light">
+<div class="features section bg-light pb-5">
     <div class="container px-4 py-5">
 <div class="row s-lg-row">
 <!-- Marketing Icons Section -->
@@ -15,12 +15,12 @@
 </p><ul class="list-unstyled mt-4">
 
 <li>
-    <router-link to="/information/academic-accomodations"><span class="bi bi-plus"></span>Academic Accomodations</router-link>
+    <router-link to="/information/academic-accomodations"><span class="bi bi-plus-circle me-2"></span>Academic Accomodations</router-link>
 </li>
-<li><a href="https://csuglobal.libguides.com/ld.php?content_id=56545145" target="_blank"><span class="bi bi-plus"></span>Disability Services Handbook</a></li>
-<li><router-link to="/information/grievance-procedure"><span class="bi bi-plus"></span>Grievance Procedure</router-link></li>
-<li><router-link to="/information/support-documentation"><span class="bi bi-plus"></span>Support Documentation</router-link></li>
-<li><router-link to="/information/temporary-conditions"><span class="bi bi-plus"></span>Temporary Conditions</router-link></li>
+<li><a href="https://csuglobal.libguides.com/ld.php?content_id=56545145" target="_blank"><span class="bi bi-plus-circle me-2"></span>Disability Services Handbook</a></li>
+<li><router-link to="/information/grievance-procedure"><span class="bi bi-plus-circle me-2"></span>Grievance Procedure</router-link></li>
+<li><router-link to="/information/support-documentation"><span class="bi bi-plus-circle me-2"></span>Support Documentation</router-link></li>
+<li><router-link to="/information/temporary-conditions"><span class="bi bi-plus-circle me-2"></span>Temporary Conditions</router-link></li>
 
 </ul>
 <p></p>
@@ -38,16 +38,16 @@
 <p class="card-text lead">Resources and Services that can help you achieve your goals.
 
 </p><ul class="list-unstyled mt-4">
-<li><a href="https://globalconnect.csuglobal.edu/hub/csu_global/resources/students-with-disabilities" target="_blank"><span class="bi bi-plus"></span>Career Resources</a></li>
-<li><router-link to="/services/colorado-community-resources"><span class="bi bi-plus"></span>Colorado Community Resources</router-link></li>
+<li><a href="https://globalconnect.csuglobal.edu/hub/csu_global/resources/students-with-disabilities" target="_blank"><span class="bi bi-plus-circle me-2"></span>Career Resources</a></li>
+<li><router-link to="/services/colorado-community-resources"><span class="bi bi-plus-circle me-2"></span>Colorado Community Resources</router-link></li>
 
-<li><router-link to="/services/online-disability-resources"><span class="bi bi-plus"></span>Online Disability Resources</router-link></li>
+<li><router-link to="/services/online-disability-resources"><span class="bi bi-plus-circle me-2"></span>Online Disability Resources</router-link></li>
 
-<li><router-link to="/services/sensusaccess"><span class="bi bi-plus"></span>SensusAccess Transcription</router-link></li>
-<li><router-link to="/services/student-assistance-program"><span class="bi bi-plus"></span>Student Assistance Program</router-link></li>
-<li><router-link to="/services/wellness-materials"><span class="bi bi-plus"></span>Wellness Materials</router-link></li>
-<li><router-link to="/services/webinars"><span class="bi bi-plus"></span>Webinars</router-link></li>
-<li><router-link to="/registration"><span class="bi bi-plus"></span>Register With Us</router-link></li>
+<li><router-link to="/services/sensusaccess"><span class="bi bi-plus-circle me-2"></span>SensusAccess Transcription</router-link></li>
+<li><router-link to="/services/student-assistance-program"><span class="bi bi-plus-circle me-2"></span>Student Assistance Program</router-link></li>
+<li><router-link to="/services/wellness-materials"><span class="bi bi-plus-circle me-2"></span>Wellness Materials</router-link></li>
+<li><router-link to="/services/webinars"><span class="bi bi-plus-circle me-2"></span>Webinars</router-link></li>
+<li><router-link to="/registration"><span class="bi bi-plus-circle me-2"></span>Register With Us</router-link></li>
 
 </ul>
 <p></p>
@@ -64,10 +64,10 @@
 <p class="card-text lead">CSU Global is committed to ensuring education is accessible to our users.
 
 </p><ul class="list-unstyled mt-4">
-<li><router-link to="/accessible-education/accessibility-policy"><span class="bi bi-plus"></span>Accessibility Policy</router-link></li>
-<li><router-link to="/accessible-education/assistive-tools-and-resources"><span class="bi bi-plus"></span>Assistive Tools &amp; Resources</router-link></li>
-<li><router-link to="/accessible-education/iac-information"><span class="bi bi-plus"></span>IAC Information</router-link></li>
-<li><router-link to="/accessible-education/role-of-faculty-and-staff"><span class="bi bi-plus"></span>Role of Faculty &amp; Staff</router-link></li>
+<li><router-link to="/accessible-education/accessibility-policy"><span class="bi bi-plus-circle me-2"></span>Accessibility Policy</router-link></li>
+<li><router-link to="/accessible-education/assistive-tools-and-resources"><span class="bi bi-plus-circle me-2"></span>Assistive Tools &amp; Resources</router-link></li>
+<li><router-link to="/accessible-education/iac-information"><span class="bi bi-plus-circle me-2"></span>IAC Information</router-link></li>
+<li><router-link to="/accessible-education/role-of-faculty-and-staff"><span class="bi bi-plus-circle me-2"></span>Role of Faculty &amp; Staff</router-link></li>
 
 </ul>
 <p></p>
@@ -98,7 +98,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 
-#app .bi-plus {
+#app .bi-plus-circle me-2 {
     font-size:1.5rem;
     vertical-align: -0.15em;
 }

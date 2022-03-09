@@ -1,5 +1,5 @@
 <template>
-  <div class="colorado-community-resources section container">
+  <div class="colorado-community-resources section container pb-5">
     <div class="row pt-5">
       <div class="clearfix">
 

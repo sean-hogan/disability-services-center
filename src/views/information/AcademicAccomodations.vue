@@ -1,5 +1,5 @@
 <template>
-  <div class="acc-acco section container">
+  <div class="acc-acco section container pb-5">
     <div class="row pt-5">
       <div class="clearfix">
 
@@ -31,7 +31,7 @@
 
 <p>CSU Global understands that reasonable accommodations must be made unless it can be demonstrated that the accommodations would impose an undue hardship on the operation of the program.</p>
 
-<p><router-link to="/registration"><button type="button" class="btn btn-primary">Register With Us</button></router-link></p>
+<p><router-link to="/registration"><button type="button" class="btn btn-primary rounded-pill">Register With Us</button></router-link></p>
 
     </div><!--end clearfix-->
     </div><!--end row-->

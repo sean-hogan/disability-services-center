@@ -3,7 +3,7 @@
 
 <div class="container px-4 py-5" data-aos="fade" data-aos-duration="500" data-aos-once="true">
   <div class="text-center">
-  <h2 id="faq-heading">FAQ</h2>
+  <h2 id="faq-heading" class="display-3">FAQ</h2>
 
   </div>
          <div class="row justify-content-center">
@@ -36,16 +36,6 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 
-#faq-heading:after {
-    content: "";
-    display: block;
-    margin: 20px auto;
-    position: relative;
-    width: 60px;
-    height: 3px;
-    background-color: #ddd;
-    margin-top: 10px;
-}
 
 .faq-item {
   padding:2rem 1rem;

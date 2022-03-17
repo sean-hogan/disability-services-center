@@ -138,9 +138,9 @@ export default {
 
 #app .dropdown-menu{
   margin:0px;
-  // padding:0px;
+  border:0px;
   background-image: linear-gradient(#fff, #fff), 
-        linear-gradient(#007bff, #007bff);
+        linear-gradient(45deg, #fff722, #ff26f9),linear-gradient(142deg, transparent, white),linear-gradient(108deg, red, transparent);
     background-clip: content-box, padding-box;
 }
 

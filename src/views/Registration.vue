@@ -2,7 +2,9 @@
   <div class="registration section container pb-5">
     
     <div class="row pt-5">
-      <div class="clearfix">
+      <div class="clearfix d-flex justify-content-center">
+        <div class="col-sm-10">
+
     
 
 
@@ -10,7 +12,7 @@
     <h1 class="display-2">Register</h1>
   </div>
 				
-  <p class="lead">Disability Services at CSU Global is committed to individualized assistance that honors the uniqueness of each student. A conversation about your experiences will help Disability Services identify the types of accommodations that may be appropriate, and the information necessary to support those accommodations. Reach out to Disability Services via email <a href="mailto:ADA@csuglobal.edu">ADA@csuglobal.edu</a> or by phone <a href="tel:1-720-279-0650">(720) 279-0650</a>.</p>
+  <p class="lead">Disability & Accessibility Services at CSU Global is committed to individualized assistance that honors the uniqueness of each student. A conversation about your experiences will help Disability & Accessibility Services identify the types of accommodations that may be appropriate, and the information necessary to support those accommodations. Reach out to Disability & Accessibility Services via email <a href="mailto:ADA@csuglobal.edu">ADA@csuglobal.edu</a> or by phone <a href="tel:1-720-279-0650">(720) 279-0650</a>.</p>
 
 
 <h2>Register With Us</h2>
@@ -41,8 +43,9 @@
 
 <p>If you are not approved for academic accommodations at CSU Global, you will be provided an explanation or be asked to submit additional documentation and/or information.</p>
     
-      </div>
-    </div>
+        </div><!--end col-->
+      </div><!--clear-->
+    </div><!--row-->
 
   </div>  <!--End Container -->
 

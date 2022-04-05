@@ -1,8 +1,9 @@
 <template>
   <div class="Accessibility Policy section container pb-5">
     <div class="row pt-5">
-      <div class="clearfix">
 
+ <div class="clearfix d-flex justify-content-center">
+        <div class="col-sm-10">
 
 
 
@@ -19,6 +20,7 @@
 
 <p>Please report any accessibility issues to <a href="mailto:ADA@csuglobal.edu">ADA@csuglobal.edu</a>.</p>
     
+  </div><!--end col-->
     </div><!--end clearfix-->
     </div><!--end row-->
     

@@ -1,8 +1,9 @@
 <template>
   <div class="InternshipsAndProfessionalOpportunities section container pb-5">
     <div class="row pt-5">
-      <div class="clearfix">
 
+ <div class="clearfix d-flex justify-content-center">
+        <div class="col-sm-10">
 
 
 
@@ -33,6 +34,7 @@
   <p><a href="https://www.viscardicenter.org/">The Viscardi Center</a><br>
   The Viscardi Center was founded in 1952 and has grown into a network of nonprofit organizations. This network provides a wide range of services for adults and children with disabilities with a focus on education and employment.</p>
 
+  </div><!--end col-->
     </div><!--end clearfix-->
     </div><!--end row-->
     

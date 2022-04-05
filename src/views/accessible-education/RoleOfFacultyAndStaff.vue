@@ -1,8 +1,9 @@
 <template>
   <div class="RoleOfFacultyAndStaff section container pb-5">
     <div class="row pt-5">
-      <div class="clearfix">
 
+ <div class="clearfix d-flex justify-content-center">
+        <div class="col-sm-10">
 
 
 
@@ -32,6 +33,7 @@
 <p>For information about workplace accommodations as a CSU Global employee, please reach out to <a href="hr@csuglobal.edu">hr@csuglobal.edu</a>. Our Human Resources Office can assist you with this process.</p> 
 
 
+        </div><!--end col-->
     </div><!--end clearfix-->
     </div><!--end row-->
     

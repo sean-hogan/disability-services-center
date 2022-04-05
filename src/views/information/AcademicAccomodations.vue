@@ -1,8 +1,9 @@
 <template>
   <div class="acc-acco section container pb-5">
     <div class="row pt-5">
-      <div class="clearfix">
 
+ <div class="clearfix d-flex justify-content-center">
+        <div class="col-sm-10">
 
 
 
@@ -33,6 +34,7 @@
 
 <p><router-link to="/registration"><button type="button" class="btn btn-primary rounded-pill">Register With Us</button></router-link></p>
 
+  </div><!--end col-->
     </div><!--end clearfix-->
     </div><!--end row-->
     

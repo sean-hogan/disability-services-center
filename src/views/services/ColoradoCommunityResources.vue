@@ -1,8 +1,9 @@
 <template>
   <div class="colorado-community-resources section container pb-5">
     <div class="row pt-5">
-      <div class="clearfix">
 
+ <div class="clearfix d-flex justify-content-center">
+        <div class="col-sm-10">
 
 
 
@@ -64,6 +65,7 @@
 </ul>
 
     
+  </div><!--end col-->
     </div><!--end clearfix-->
     </div><!--end row-->
     

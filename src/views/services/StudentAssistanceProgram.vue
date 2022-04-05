@@ -1,8 +1,8 @@
 <template>
   <div class="StudentAssistanceProgram section container pb-5">
     <div class="row pt-5">
-      <div class="clearfix">
-
+ <div class="clearfix d-flex justify-content-center">
+        <div class="col-sm-10">
 
 
 
@@ -45,6 +45,7 @@
 <li>Daily Living and Concierge resources that provides referrals such as for home improvement resources, cleaning services, travel information and more.</li>
 <li>Relocation services and referral information provided to students who are moving. Referrals include moving companies, housing options, utility companies, schools and more.</li>
 </ul>
+  </div><!--end col-->
     </div><!--end clearfix-->
     </div><!--end row-->
     

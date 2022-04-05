@@ -18,7 +18,7 @@
 <div class="col-md-6 mb-md-0 mb-3 pt-3">
 
             <!-- Links -->
-            <p class="h5 text-uppercase">CSU Global Disability Services</p>
+            <p class="h5 text-uppercase">CSU Global Disability & Accessibility Services</p>
 
 <p><a href="mailto:ada@csuglobal.edu">ADA@csuglobal.edu</a>
 <br><a href="tel:1-720-279-0650">(720) 279-0650</a></p>

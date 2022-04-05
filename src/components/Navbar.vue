@@ -4,12 +4,13 @@
           <!---BRAND--->
 
       <router-link class="navbar-brand" to="/">
-          <img src="https://libapps.s3.amazonaws.com/accounts/129967/images/CSUG_Seal_RGB.jpg" class="" width="65">Disability Services
+          <img src="https://libapps.s3.amazonaws.com/accounts/129967/images/CSUG_Seal_RGB.jpg" class="" width="65">Disability & Accessibility Services
       </router-link>
 
       <div class="ms-auto d-flex flex-row">
 
-      <router-link class="nav-link btn btn-primary rounded-pill me-2" to="/registration">Register with Us</router-link>
+      <router-link class="btn btn-primary rounded-pill me-2 menu-link" to="/registration">Register with Us</router-link>
+      <router-link class="btn btn-outline-info rounded-pill me-2 menu-link" to="/contact-us">Contact Us</router-link>
 
 
 
@@ -65,8 +66,8 @@
           </router-link>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><router-link class="dropdown-item" to="/accessible-education/accessibility-policy">Accessibility Policy</router-link></li>
+            <li><router-link class="dropdown-item" to="/accessible-education/iac-information">Institutional Accessibility Committee</router-link></li>
             <li><router-link class="dropdown-item" to="/accessible-education/assistive-tools-and-resources">Assistive Tools & Resources</router-link></li>
-            <li><router-link class="dropdown-item" to="/accessible-education/iac-information">IAC Information</router-link></li>
             <li><router-link class="dropdown-item" to="/accessible-education/role-of-faculty-and-staff">Role of Faculty & Staff</router-link></li>
           </ul>
         </li>
@@ -85,11 +86,8 @@
         </li>
             
         <li class="nav-item px-3 ms-auto">
-        <router-link class="nav-link" to="/contact-us">CONTACT US</router-link>
+        <router-link class="nav-link menu-link" to="/services/student-assistance-program">Counseling Support</router-link>
         </li>
-        
-      <!-- <a href="mailto:ADA@csuglobal.edu?subject=Faculty%20Notification%20Request&amp;body=Hi There, I would like to request a faculty notification letter for my courses." class="d-inline-flex align-items-center">Request Faculty Notification<i class="bi bi-envelope fs-3 ms-2"></i>
-      </a> -->
 
         </ul>
         </div><!--end collapse-->
@@ -101,14 +99,26 @@
 
 
 <script>
+import {Collapse} from 'bootstrap'
+
 export default {
   name: 'Navbar',
   props: {
+    },
+  mounted() {
+    /* FOR MOBILE ONLY */
+    if (window.matchMedia("(max-width: 991px)").matches) {
+      const navLinks = document.querySelectorAll('.dropdown-item, .menu-link')
+      const menuToggle = document.getElementById('navbarSupportedContent')
+      const bsCollapse = new Collapse(menuToggle, {toggle: false})
+      navLinks.forEach((l) => {
+      l.addEventListener('click', () => { bsCollapse.toggle() })
+      })
     }
+  },
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 
 <style scoped lang="scss">
 
@@ -119,8 +129,8 @@ export default {
   font-family: industry, sans-serif;
 	font-weight: 700;
 	font-style: normal;
-	font-size: 1.9rem;
-  color: #007bff;
+	font-size: 1.8rem;
+  color: #0000AD;
 }
 
 #app .navbar-brand:hover {
@@ -144,9 +154,6 @@ export default {
     background-clip: content-box, padding-box;
 }
 
-.btn-primary:hover{ 
-  background: #941938;
-}
 
 .btn:focus, .btn {
   box-shadow:none!important;

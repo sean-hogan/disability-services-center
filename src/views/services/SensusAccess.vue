@@ -4,8 +4,8 @@
 <div class="sensusaccess section container pb-5">
   <div class="row pt-5">
 
-    <div class="clearfix">
-
+ <div class="clearfix d-flex justify-content-center">
+        <div class="col-sm-10">
       <div class="header mb-4">
         <h1 class="display-2">SensusAccess</h1>
       </div>
@@ -34,6 +34,7 @@
 </div>
 
 
+        </div><!--end col-->
   </div><!--/clear-->
   </div><!--/row-->
 </div><!--/container-->

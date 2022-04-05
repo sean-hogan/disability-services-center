@@ -1,8 +1,9 @@
 <template>
   <div class="SupportDocumentation section container pb-5">
     <div class="row pt-5">
-      <div class="clearfix">
 
+ <div class="clearfix d-flex justify-content-center">
+        <div class="col-sm-10">
 
 
 
@@ -37,6 +38,7 @@ Once you are approved for academic accommodations, prior to the beginning of eac
 <p><router-link to="/contact-us"><button type="button" class="btn btn-primary rounded-pill">Contact Us</button></router-link></p>
 
     
+  </div><!--end col-->
     </div><!--end clearfix-->
     </div><!--end row-->
     

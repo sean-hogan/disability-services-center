@@ -64,7 +64,7 @@
 <p class="card-text lead">CSU Global is committed to ensuring education is accessible to our users.
 
 </p><ul class="list-unstyled mt-4">
-<li><router-link to="/accessible-education/accessibility-policy"><span class="bi bi-plus-circle me-2"></span>Accessibility Policy</router-link></li>
+<li><a href="https://csuglobal.edu/student-policies/institutional-accessibility-policy"><span class="bi bi-plus-circle me-2"></span>Accessibility Policy</a></li>
 <li><router-link to="/accessible-education/assistive-tools-and-resources"><span class="bi bi-plus-circle me-2"></span>Assistive Tools &amp; Resources</router-link></li>
 <li><router-link to="/accessible-education/iac-information"><span class="bi bi-plus-circle me-2"></span>IAC Information</router-link></li>
 <li><router-link to="/accessible-education/role-of-faculty-and-staff"><span class="bi bi-plus-circle me-2"></span>Role of Faculty &amp; Staff</router-link></li>

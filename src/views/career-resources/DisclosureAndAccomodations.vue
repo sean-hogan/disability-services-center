@@ -1,8 +1,9 @@
 <template>
   <div class="DisclosureAndAccomodations section container pb-5">
     <div class="row pt-5">
-      <div class="clearfix">
 
+ <div class="clearfix d-flex justify-content-center">
+        <div class="col-sm-10">
 
 
 
@@ -25,6 +26,7 @@ Comprehensive information from the U.S. Department of Labor on Why, When, How, W
 Learn about reasonable accommodations as it relates to employment and examples of accommodations within the workplace.</p>
 
 
+  </div><!--end col-->
     </div><!--end clearfix-->
     </div><!--end row-->
     
@@ -40,7 +42,7 @@ Learn about reasonable accommodations as it relates to employment and examples o
 export default {
   name: "DisclosureAndAccomodations",
   components: {
-  },
+    },
 };
 </script>
 

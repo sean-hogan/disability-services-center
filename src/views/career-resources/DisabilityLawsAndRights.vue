@@ -1,8 +1,9 @@
 <template>
   <div class="DisabilityLawsAndRights section container pb-5">
     <div class="row pt-5">
-      <div class="clearfix">
 
+ <div class="clearfix d-flex justify-content-center">
+        <div class="col-sm-10">
 
 
 
@@ -27,6 +28,7 @@ Guidance on your employment rights under the Americans with Disabilities Act of 
 <p><a href="https://www.eeoc.gov/disability-discrimination">Disability Discrimination Information</a><br>
 An overview of disability discrimination from the U.S. Equal Employment Opportunity Commission. This resource can help you determine if you have experienced or are experiencing disability discrimination in your workplace or by a potential employer.</p>
   
+  </div><!--end col-->
     </div><!--end clearfix-->
     </div><!--end row-->
     

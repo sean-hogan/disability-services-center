@@ -1,8 +1,10 @@
 <template>
 <div class="greive section container pb-5">
   <div class="row pt-5">
-    <div class="clearfix">
-    <div class="header mb-4">
+
+ <div class="clearfix d-flex justify-content-center">
+        <div class="col-sm-10">
+            <div class="header mb-4">
       <h1 class="display-2">Grievance Procedure</h1>
     </div>
       <h2>Grievance Procedure for Disability Related Issues</h2>
@@ -69,6 +71,7 @@
         <router-link to="/contact-us">
         <button type="button" class="btn btn-primary rounded-pill">Contact Us</button></router-link        >
       </p>
+  </div><!--end col-->
     </div><!--end clearfix-->
   </div><!--end row-->
 </div><!--End Container -->

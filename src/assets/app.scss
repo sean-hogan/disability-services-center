@@ -1,10 +1,10 @@
 $red: #9e1831;
 $grey: rgb(242, 242, 242);
 $darkblue: #1c2333;
-$lightblue: #007bff;
+$lightblue: #0000AD;
 $enable-rounded: false;
-$primary: $darkblue;
-$info:$lightblue;
+$primary: $lightblue;
+$info:$darkblue;
 //gen styles
 #app .section {
     font-family: 'Source Sans Pro', sans-serif;
@@ -17,7 +17,7 @@ $info:$lightblue;
 
 //header styles
 #app .header {
-    color: $primary;
+    color: $info;
 }
 
 #app h2 {
@@ -50,7 +50,7 @@ $info:$lightblue;
 
 #app .btn-primary,
 #app .btn-info {
-    color: #fff
+    color: #fff;
 }
 
 #app .btn-primary:hover,

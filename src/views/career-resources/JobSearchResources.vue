@@ -1,8 +1,9 @@
 <template>
   <div class="JobSearchResources section container pb-5">
     <div class="row pt-5">
-      <div class="clearfix">
 
+ <div class="clearfix d-flex justify-content-center">
+        <div class="col-sm-10">
 
 
 
@@ -31,6 +32,7 @@ This is a job search website which focuses on the employment of individuals with
 A yearly recruitment program which connects federal and private sector employers to current college students or recent graduates for summer or permanent job opportunities. CSU-Global participates in this program which begins around September of every year. If you are interested in participating in the WRP, please email <a href="mailto:ada@csuglobal.edu">ada@csuglobal.edu</a>.</p>
 
     
+  </div><!--end col-->
     </div><!--end clearfix-->
     </div><!--end row-->
     

@@ -35,8 +35,6 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-
-
 .faq-item {
   padding:2rem 1rem;
   border-bottom:1px solid grey;
@@ -50,5 +48,17 @@ export default {
 #app .bi {
   margin-left:1rem;
 }
+
+#faq-heading:after {
+    content: "";
+    display: block;
+    margin: 20px auto;
+    position: relative;
+    width: 60px;
+    height: 3px;
+    background-color: #ddd;
+    margin-top: 10px;
+}
+
 
 </style>

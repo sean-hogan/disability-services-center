@@ -2,7 +2,7 @@
 
 <template>
   <header class="big-hero">
-    <div class="container col-xxl-8 px-4 py-5">
+    <div class="container col-xxl-8 py-5">
     <div class="row py-5">
       
       <div class="col-12 col-lg-8">
@@ -11,7 +11,7 @@
         </h1>
         <p class="lead">{{ body }}</p>
        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-         <router-link to="/registration"><button type="button" class="btn btn-lg btn-primary mb-3 me-3 rounded-pill">Get Started</button></router-link>
+         <router-link to="/registration"><button type="button" class="btn btn-lg btn-primary mb-3 me-3 rounded-pill">Register With Us</button></router-link>
   
   <a href="mailto:ADA@csuglobal.edu?subject=Faculty%20Notification%20Request&amp;body=Hi There, I would like to request a faculty notification letter for my courses." class="text-decoration-none"><button type="button" class="btn btn-lg btn-outline-info rounded-pill mb-3 d-inline-flex">Request Faculty Notification<i class="bi bi-envelope-fill align-self-center ms-2"></i></button></a>
         </div>
@@ -45,15 +45,6 @@ export default {
 }
 .lead {
   font-family: 'Source Sans Pro', sans-serif;
-}
-.btn-light {
-  color:#aa1d40;
-  border:0px;
-}
-
-.btn-light:hover {
-  color:#aa1d40;
-  background-color: #eee;
 }
 
 

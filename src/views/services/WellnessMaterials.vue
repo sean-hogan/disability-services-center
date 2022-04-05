@@ -1,8 +1,8 @@
 <template>
   <div class="Wellness section container pb-5">
     <div class="row pt-5">
-      <div class="clearfix">
-
+ <div class="clearfix d-flex justify-content-center">
+        <div class="col-sm-10">
 
 
 
@@ -26,6 +26,7 @@
 <li>Monthly Webinars</li>
 <li>Access to ESPῩR’s mobile app that can be downloaded for free on the Apple Store or Google Play.</li>
 </ul>
+        </div><!--end col-->
 
     </div><!--end clearfix-->
     </div><!--end row-->

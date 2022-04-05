@@ -2,18 +2,16 @@
   <div class="contact-us section container pb-5">
     <div class="banner text-center mb-5">
       <h1 class="display-3 my-4">Contact Us</h1>
-      <p class="lead">
-        We're here to help, simply use he option below that works best for you
-      </p>
+
     </div><!--end banner-->
 
 
       <div class="row row-cols-1 row-cols-md-2 mb-3">
 
       <div class="col">
-        <div class="card mb-4">
+        <div class="card mb-4 h-100">
           <div class="card-body p-4">
-            <h2 class="card-title">DISABILITY SERVICES</h2>
+            <h2 class="card-title">DISABILITY & ACCESSIBILITY SERVICES</h2>
             <ul class="list-unstyled mt-3 mb-4">
               <li><i class="bi bi-envelope me-3"></i><a href="ADA@csuglobal.edu">ADA@csuglobal.edu</a></li>
               <li><i class="bi bi-phone me-3"></i><a href="tel:1-720-279-0560">(720) 279-0560</a></li>
@@ -26,7 +24,7 @@
       </div><!--/col-->
 
       <div class="col">
-        <div class="card mb-4">
+        <div class="card mb-4 h-100">
           <div class="card-body p-4">
             <h2 class="card-title">COUNSELING SERVICES</h2>
             

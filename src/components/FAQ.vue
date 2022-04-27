@@ -1,17 +1,95 @@
 <template>
 <section class="faq section" id="faq" aria-labelledby="faq-heading">
 
-<div class="container px-4 py-5" data-aos="fade" data-aos-duration="500" data-aos-once="true">
+<div class="container px-4 py-5">
   <div class="text-center">
-  <h2 id="faq-heading" class="display-3">FAQ</h2>
+  <h2 id="faq-heading" class="display-3 mb-5">FAQ</h2>
 
   </div>
          <div class="row justify-content-center">
            <div class="col-md-8">
 
-             <div class="faq-item"><a href="https://csuglobalhelp.knowledgeowl.com/help/contacting-disability-and-accessibility-services" target="_blank">How do I contact Disability and Accessibility Services?<i class="bi bi-box-arrow-up-right"></i></a></div>
-             <div class="faq-item"><a href="https://csuglobalhelp.knowledgeowl.com/help/requesting-academic-accommodations" target="_blank">How do I request academic accommodations?<i class="bi bi-box-arrow-up-right"></i></a></div>
-             <div class="faq-item"><a href="https://csuglobalhelp.knowledgeowl.com/help/faculty-notification-letters-and-using-accommodations-each-term" target="_blank">What are Faculty Notification Letters and/or how do I use accommodations each term?<i class="bi bi-box-arrow-up-right"></i></a></div>
+         <div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h3 class="accordion-header" id="flush-headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        How do I contact Disability and Accessibility Services?
+      </button>
+    </h3>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">You can contact Disability and Accessibility Services by emailing <a href="mailto:ada@csuglobal.edu">ada@csuglobal.edu</a> or calling 720-279-0650. Our office is open Monday through Friday and we strive to respond within 1 business day. At peak times, like term starts, our response time may be 2 business days.
+        </div>
+    </div>
+  </div><!--end accordion item-->
+
+  <div class="accordion-item">
+    <h3 class="accordion-header" id="flush-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+       What are academic accommodations?
+      </button>
+    </h3>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Academic accommodations are any <b>modification or adjustment in the learning environment</b> that ensures students with disabilities can participate in a course, program, facility, activity, or service. Accommodations ensure that students with disabilities have equal access and rights to students without disabilities. Essentially, academic accommodations create equal educational opportunities.
+        </div>
+    </div>
+  </div><!--end accordion item-->
+
+  <div class="accordion-item">
+    <h3 class="accordion-header" id="flush-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        How do I request academic accommodations?
+      </button>
+    </h3>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Please refer to the to <router-link to="/registration">Register with Disability and Accessibility Services and Request Academic Accommodations</router-link> section of this page for this information.
+
+        </div>
+    </div>
+  </div><!--end accordion item-->
+
+  <div class="accordion-item">
+    <h3 class="accordion-header" id="flush-headingFour">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+        Do I have to use the approved accommodations in every class I take at CSU Global?
+      </button>
+    </h3>
+    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">No. It is your choice which courses to use approved accommodations. If you choose to use your accommodations in a course, it is your responsibility to request a Faculty Notification letter from Disability and Accessibility Services and then share that letter with your faculty. Faculty must honor accommodations once you send the Faculty Notification Letter. If you wait to send the letter until week 5 of the term, the accommodations will not be retroactive to the completed weeks of the term.</div>
+    </div>
+  </div><!--end accordion item-->
+
+  <div class="accordion-item">
+    <h3 class="accordion-header" id="flush-headingFive">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+          What are Faculty Notification Letters and/or how do I use accommodations each term?
+      </button>
+    </h3>
+    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Please refer to the <router-link to="/information/faculty-notification">Faculty Notification Letters and Using Accommodations Each Term</router-link> section of this page for this information. 
+      </div>
+    </div>
+  </div><!--end accordion item-->
+
+    <div class="accordion-item">
+    <h3 class="accordion-header" id="flush-headingSix">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+         What should I do if my faculty is not honoring my accommodations?
+      </button>
+    </h3>
+    <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">First, reach out to your faculty by email or phone. This may genuinely be an accident that can be corrected by a conversation or email reminding the instructor. If the issue continues or the faculty is not responsive, contact Disability and Accessibility Services at <a href="mailto:ada@csuglobal.edu">ada@csuglobal.edu</a> or 720-279-0650. We will work together to communicate with the faculty and ensure your accommodations are honored in the course.
+      </div>
+    </div>
+  </div><!--end accordion item-->
+
+
+
+</div><!--end accordion-->
+
+
+
+
+
 
 
 
@@ -35,30 +113,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-.faq-item {
-  padding:2rem 1rem;
-  border-bottom:1px solid grey;
+.accordion-button {
+  font-size:1.3rem;
+}
+.accordion-body {
   font-size:1.2rem;
 }
-
-.faq-item:hover {
-  background:#eee;
-}
-
-#app .bi {
-  margin-left:1rem;
-}
-
-#faq-heading:after {
-    content: "";
-    display: block;
-    margin: 20px auto;
-    position: relative;
-    width: 60px;
-    height: 3px;
-    background-color: #ddd;
-    margin-top: 10px;
-}
-
-
 </style>

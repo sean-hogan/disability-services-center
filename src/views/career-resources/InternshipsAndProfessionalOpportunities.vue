@@ -1,16 +1,10 @@
 <template>
-  <div class="InternshipsAndProfessionalOpportunities section container pb-5">
-    <div class="row pt-5">
-
- <div class="clearfix d-flex justify-content-center">
-        <div class="col-sm-10">
-
-
-
-
-        <div class="header mb-4">
+<ContentPageLayout>
+  <template #header>
           <h1 class="display-2">Internships And Professional Opportunities</h1>
-        </div>
+ </template>
+     
+  <template #content>
 
   <p class="lead">If you would like to earn academic credit for your internship, <a href="https://globalconnect.csuglobal.edu/hub/csu_global/post/earn-academic-credit-from-your-internship">check out this article</a> and contact your Student Advisor to begin the application process. </p>
 
@@ -34,30 +28,13 @@
   <p><a href="https://www.viscardicenter.org/">The Viscardi Center</a><br>
   The Viscardi Center was founded in 1952 and has grown into a network of nonprofit organizations. This network provides a wide range of services for adults and children with disabilities with a focus on education and employment.</p>
 
-  </div><!--end col-->
-    </div><!--end clearfix-->
-    </div><!--end row-->
-    
-  </div><!--End Container -->
-
-
+  </template>
+</ContentPageLayout>
 </template>
 
 
-<script>
-// @ is an alias to /src
-
-export default {
-  name: "InternshipsAndProfessionalOpportunities",
-  components: {
-  },
-};
+<script setup>
+import ContentPageLayout from '@/layouts/ContentPageLayout.vue'
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped lang="scss">
-
-</style>
-
 
 

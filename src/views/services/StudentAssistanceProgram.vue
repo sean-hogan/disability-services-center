@@ -1,15 +1,10 @@
 <template>
-  <div class="StudentAssistanceProgram section container pb-5">
-    <div class="row pt-5">
- <div class="clearfix d-flex justify-content-center">
-        <div class="col-sm-10">
-
-
-
-
-        <div class="header mb-4">
+<ContentPageLayout>
+  <template #header>
           <h1 class="display-2">Student Assistance Program</h1>
-        </div>
+          </template>
+     
+  <template #content>
 <p class="lead">CSU Global has partnered with ESPῩR to provide students and their family members with a comprehensive Student Assistance Program (SAP) that is free and confidential. The SAP is available 24 hours a day, 7 days a week.</p>
 
 <p>
@@ -45,30 +40,12 @@
 <li>Daily Living and Concierge resources that provides referrals such as for home improvement resources, cleaning services, travel information and more.</li>
 <li>Relocation services and referral information provided to students who are moving. Referrals include moving companies, housing options, utility companies, schools and more.</li>
 </ul>
-  </div><!--end col-->
-    </div><!--end clearfix-->
-    </div><!--end row-->
-    
-  </div><!--End Container -->
 
-
+  </template>
+</ContentPageLayout>
 </template>
 
 
-<script>
-// @ is an alias to /src
-
-export default {
-  name: "StudentAssistanceProgram",
-  components: {
-  },
-};
+<script setup>
+import ContentPageLayout from '@/layouts/ContentPageLayout.vue'
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped lang="scss">
-
-</style>
-
-
-

@@ -11,9 +11,13 @@
         </h1>
         <p class="lead">{{ body }}</p>
        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-         <router-link to="/registration"><button type="button" class="btn btn-lg btn-primary mb-3 me-3 rounded-pill">Register With Us</button></router-link>
+        <router-link to="/registration">
+        <button type="button" class="btn btn-lg btn-primary mb-3 me-3 rounded-pill">Register With Us</button>
+        </router-link>
   
-  <a href="mailto:ADA@csuglobal.edu?subject=Faculty%20Notification%20Request&amp;body=Hi There, I would like to request a faculty notification letter for my courses." class="text-decoration-none"><button type="button" class="btn btn-lg btn-outline-info rounded-pill mb-3 d-inline-flex">Request Faculty Notification<i class="bi bi-envelope-fill align-self-center ms-2"></i></button></a>
+        <router-link to="/information/faculty-notification">
+        <button type="button" class="btn btn-lg btn-outline-primary rounded-pill mb-3">Faculty Notifications</button>
+        </router-link>
         </div>
       </div>
     </div>
@@ -45,6 +49,9 @@ export default {
 }
 .lead {
   font-family: 'Source Sans Pro', sans-serif;
+}
+.btn {
+  text-decoration:none;
 }
 
 

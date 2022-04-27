@@ -1,17 +1,12 @@
 <template>
-  <div class="AssistiveToolsAndResources section container pb-5">
-    <div class="row pt-5">
 
- <div class="clearfix d-flex justify-content-center">
-        <div class="col-sm-10">
+<ContentPageLayout>
 
+  <template #header>
+    <h1 class="display-2">Assistive Tools And Resources</h1>
+  </template>
 
-
-
-        <div class="header mb-4">
-          <h1 class="display-2">Assistive Tools And Resources</h1>
-        </div>
-				
+  <template #content>		
 
 <p class="lead">Please note: The resources listed may be available at no cost to CSU-Global students. More advanced versions of these resources/services may also be available and require payment by the user. CSU-Global assumes no responsibility for any costs associated with these resources as the financial responsibility falls to the student. In addition, the inclusion of these resources and services does not imply endorsement or recommendation by CSU-Global. CSU-Global recommends that any student who is considering accessing any resource or service conduct appropriate research to confirm legitimacy and personal applicability.</p>
 
@@ -158,34 +153,16 @@
 <li><a href="https://editor.typely.com/">Typely</a>
 <br>A fairly new online service that takes a unique and thoughtful approach to proofreading services.
 </li>
-
-
 </ul>
-        </div><!--end col-->
-    
-    </div><!--end clearfix-->
-    </div><!--end row-->
-    
-  </div><!--End Container -->
-
 
 </template>
 
+</ContentPageLayout>
+</template>
 
-<script>
-// @ is an alias to /src
-
-export default {
-  name: "AssistiveToolsAndResources",
-  components: {
-  },
-};
+<script setup>
+import ContentPageLayout from '@/layouts/ContentPageLayout.vue'
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped lang="scss">
-
-</style>
 
 
 

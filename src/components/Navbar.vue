@@ -39,10 +39,12 @@
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><router-link class="dropdown-item" to="/information/academic-accomodations">Academic Accommodations</router-link></li>
+            <li><router-link class="dropdown-item" to="/information/academic-requirements">Academic Requirements</router-link></li>
+            <li><router-link class="dropdown-item" to="/information/faculty-notification">Faculty Notification</router-link></li>
             <li><a class="dropdown-item" href="https://csuglobal.libguides.com/ld.php?content_id=56545145" target="_blank">Disability Services Handbook</a></li>
             <li><router-link class="dropdown-item" to="/information/grievance-procedure">Grievance Procedure</router-link></li>
             <li><router-link class="dropdown-item" to="/information/support-documentation">Support Documentation</router-link></li>
-            <li><router-link class="dropdown-item" to="/information/temporary-conditions">Temporary Conditions</router-link></li>
+            <li><router-link class="dropdown-item" to="/information/temporary-conditions">Temporary Accommodations and Services</router-link></li>
           </ul>
         </li>
 
@@ -106,7 +108,7 @@ export default {
   props: {
     },
   mounted() {
-    /* FOR MOBILE ONLY */
+    /* if mounts on mobile, add clicking link closes collapse */
     if (window.matchMedia("(max-width: 991px)").matches) {
       const navLinks = document.querySelectorAll('.dropdown-item, .menu-link')
       const menuToggle = document.getElementById('navbarSupportedContent')

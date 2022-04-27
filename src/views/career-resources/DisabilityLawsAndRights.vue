@@ -1,16 +1,10 @@
 <template>
-  <div class="DisabilityLawsAndRights section container pb-5">
-    <div class="row pt-5">
-
- <div class="clearfix d-flex justify-content-center">
-        <div class="col-sm-10">
-
-
-
-
-        <div class="header mb-4">
+<ContentPageLayout>
+  <template #header>
           <h1 class="display-2">Disability Laws And Rights</h1>
-        </div>
+        </template>
+  <template #content>
+
 
 				<p class="lead">The field of accessibility and law is a vast field. These resources can help you understand your employment and job search rights.</p>
 
@@ -27,31 +21,14 @@ Guidance on your employment rights under the Americans with Disabilities Act of 
 
 <p><a href="https://www.eeoc.gov/disability-discrimination">Disability Discrimination Information</a><br>
 An overview of disability discrimination from the U.S. Equal Employment Opportunity Commission. This resource can help you determine if you have experienced or are experiencing disability discrimination in your workplace or by a potential employer.</p>
-  
-  </div><!--end col-->
-    </div><!--end clearfix-->
-    </div><!--end row-->
-    
-  </div><!--End Container -->
-
-
+  </template>
+</ContentPageLayout>
 </template>
 
 
-<script>
-// @ is an alias to /src
-
-export default {
-  name: "DisabilityLawsAndRights",
-  components: {
-  },
-};
+<script setup>
+import ContentPageLayout from '@/layouts/ContentPageLayout.vue'
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped lang="scss">
-
-</style>
 
 
 

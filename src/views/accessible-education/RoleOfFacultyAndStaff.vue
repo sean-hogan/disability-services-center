@@ -1,16 +1,9 @@
 <template>
-  <div class="RoleOfFacultyAndStaff section container pb-5">
-    <div class="row pt-5">
-
- <div class="clearfix d-flex justify-content-center">
-        <div class="col-sm-10">
-
-
-
-
-        <div class="header mb-4">
-          <h1 class="display-2">Role Of Faculty And Staff</h1>
-        </div>
+<ContentPageLayout>
+  <template #header>
+    <h1 class="display-2">Role Of Faculty And Staff</h1>
+  </template>
+  <template #content>
 
   <p class="lead">Disability Services partners with all departments, faculty, and staff to ensure students have access to the information and resources they need to be successful in their coursework. Below are some answers to commonly asked questions we receive from CSU Global faculty and staff. As a faculty or staff member, you are always welcome to email <a href="mailto:ada@csuglobal.edu">ada@csuglobal.edu</a> with any specific questions you may have - we are happy to assist however we can!</p>
 
@@ -31,32 +24,13 @@
 
 <p><strong>As a CSU Global employee, I am interested in learning more information about potential workplace accommodations - what are my next steps?</strong></p>
 <p>For information about workplace accommodations as a CSU Global employee, please reach out to <a href="hr@csuglobal.edu">hr@csuglobal.edu</a>. Our Human Resources Office can assist you with this process.</p> 
-
-
-        </div><!--end col-->
-    </div><!--end clearfix-->
-    </div><!--end row-->
-    
-  </div><!--End Container -->
-
-
+  </template>
+</ContentPageLayout>
 </template>
 
 
-<script>
-// @ is an alias to /src
-
-export default {
-  name: "RoleOfFacultyAndStaff",
-  components: {
-  },
-};
+<script setup>
+import ContentPageLayout from '@/layouts/ContentPageLayout.vue'
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped lang="scss">
-
-</style>
-
 
 

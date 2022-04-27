@@ -3,17 +3,17 @@
     <div class="container-fluid">
      <footer>
          <div class="row mx-5 p-5">
-            <div class="col-sm-3">
+            <div class="col-lg-3">
                 <img src="https://csuglobal.edu/imgs/logo_csuglobal.png" alt="">
                 <p class="mt-3"><strong>Colorado State University Global</strong>
                 <br />585 Salida Way
                 <br />Aurora, CO 80011</p>
                  
             </div><!--end col-->
-            <div class="col-sm-9">
+            <div class="col-lg-9">
 
 
-            <div class="row row-cols-1 row-cols-sm-2">
+            <div class="row row-cols-1 row-cols-lg-2">
 
 <div class="col-md-6 mb-md-0 mb-3 pt-3">
 

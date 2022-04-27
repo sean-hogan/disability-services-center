@@ -19,10 +19,22 @@ const routes = [{
             import ( /* webpackChunkName: "registration" */ '../views/Registration.vue')
     },
     {
+        path: '/information/faculty-notification',
+        name: 'FacultyNotification',
+        component: () =>
+            import ( /* webpackChunkName: "faculty-notification" */ '../views/FacultyNotification.vue')
+    },
+    {
         path: '/information/academic-accomodations',
         name: 'AcademicAccomodations',
         component: () =>
             import ( /* webpackChunkName: "information" */ '../views/information/AcademicAccomodations.vue')
+    },
+    {
+        path: '/information/academic-requirements',
+        name: 'AcademicRequirements',
+        component: () =>
+            import ( /* webpackChunkName: "information" */ '../views/information/AcademicRequirements.vue')
     },
     {
         path: '/information/grievance-procedure',

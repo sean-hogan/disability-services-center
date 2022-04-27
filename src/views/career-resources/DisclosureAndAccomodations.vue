@@ -1,16 +1,10 @@
 <template>
-  <div class="DisclosureAndAccomodations section container pb-5">
-    <div class="row pt-5">
-
- <div class="clearfix d-flex justify-content-center">
-        <div class="col-sm-10">
-
-
-
-
-        <div class="header mb-4">
+<ContentPageLayout>
+  <template #header>
           <h1 class="display-2">Disclosure And Accomodations</h1>
-        </div>
+  </template>
+     
+  <template #content>
 
     <p class="lead">Rather than present a list of problems and expect an employer to find solutions, it is important to develop a strategy for disclosing a disability and requesting accommodations. These resources can help you understand and develop a strategy for requesting accomodations</p>
 
@@ -25,26 +19,15 @@ Comprehensive information from the U.S. Department of Labor on Why, When, How, W
 <p><a href="https://www.dol.gov/agencies/odep/program-areas/employers/accommodations">Accommodation Information from the U.S. Department of Labor</a><br>
 Learn about reasonable accommodations as it relates to employment and examples of accommodations within the workplace.</p>
 
-
-  </div><!--end col-->
-    </div><!--end clearfix-->
-    </div><!--end row-->
-    
-  </div><!--End Container -->
-
-
+  </template>
+</ContentPageLayout>
 </template>
 
 
-<script>
-// @ is an alias to /src
-
-export default {
-  name: "DisclosureAndAccomodations",
-  components: {
-    },
-};
+<script setup>
+import ContentPageLayout from '@/layouts/ContentPageLayout.vue'
 </script>
+
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">

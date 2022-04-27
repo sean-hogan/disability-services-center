@@ -1,26 +1,10 @@
 <template>
 <ContentPageLayout>
   <template #header>
-          <h1 class="display-2">Academic Accommodations</h1>
+          <h1 class="display-2">Academic Requirements</h1>
   </template>
      
   <template #content>
-
-        
-				<p class="lead">Academic accommodations at CSU Global focus on providing equal access to students with disabilities in an online education environment. Reasonable accommodations may consist of changes in policies, practices, services, and the use of auxiliary aids. These may include but are not limited to:</p>
-
-          <ul>
-          <li>Modifying the deadline for assignments</li>
-          <li>Modifying the format of course materials</li>
-          <li>Modifying the way course information is presented</li>
-          <li>Modifying how a student submits assignments</li>
-          </ul>
-
-
-        <p>Reasonable accommodations do not require a substantial change in the curriculum or result in an alteration of any essential element, outcome, or function of a course, program, service, or activity. CSU Global understands that reasonable accommodations must be made unless it can be demonstrated that the accommodations would impose an undue hardship on the operation of the program or university.</p>
-
-          <h2 class="">Academic Requirements</h2>
-
 
 <p>Students with disabilities are expected to complete all academic requirements for their program at CSU Global. All undergraduate students must complete General Education core courses as established through the <a href="https://codes.findlaw.com/co/title-23-postsecondary-education/co-rev-st-sect-23-1-125.html">Colorado Revised Statute 23-1-125(3)</a>. These courses include Communication, Mathematics, Arts & Humanities, History, Social Sciences, and Natural & Physical Sciences, including a lab. In addition, CSU Global participates in the <a href="http://highered.colorado.gov/Academics/Transfers/gtPathways/curriculum.html">Guaranteed Transfer (GT) Pathways General Education Curriculum</a>. All schools participating in GT Pathways must hold all students to this general curriculum.</p>
 
@@ -28,8 +12,6 @@
 
 <p>Waiving or substantially altering academic requirements for program completion is generally not considered a reasonable accommodation. This includes General Education requirements as well as requirements considered essential to a student’s major and/or specialization. However, you are always encouraged to contact Disability and Accessibility Services to discuss your options. Your Student Success Counselor can also offer guidance for completing coursework, including taking a course through alternative credits, and accessing resources like Smarthinking online tutoring and CSU Global’s Writing Center.</p>
 
-
-<p><router-link to="/registration"><button type="button" class="btn btn-primary rounded-pill">Register With Us</button></router-link></p>
   </template>
 </ContentPageLayout>
 </template>
@@ -38,5 +20,3 @@
 <script setup>
 import ContentPageLayout from '@/layouts/ContentPageLayout.vue'
 </script>
-
-

@@ -1,16 +1,9 @@
 <template>
-  <div class="IACInformation section container pb-5">
-    <div class="row pt-5">
-
- <div class="clearfix d-flex justify-content-center">
-        <div class="col-sm-10">
-
-
-
-
-        <div class="header mb-4">
-          <h1 class="display-2">IAC Information</h1>
-        </div>
+<ContentPageLayout>
+  <template #header>
+      <h1 class="display-2">IAC Information</h1>
+  </template>
+  <template #content>
     <p class="lead">Accessibility is an interdepartmental priority at CSU Global.  The Institutional Accessibility Committee (IAC) is responsible for assessing, sustaining, and advancing accessibility at all tiers of CSU Global.</p>
 
 
@@ -28,31 +21,11 @@
 <li>Propose standards and policy revisions to Governance Council as appropriate.</li>
 <li>Ensure that CSU Global maintains compliance and continues to provide exceptional student support.</li>
 </ul>
-
-  </div><!--end col-->
-    </div><!--end clearfix-->
-    </div><!--end row-->
-    
-  </div><!--End Container -->
-
-
+  </template>
+</ContentPageLayout>
 </template>
 
 
-<script>
-// @ is an alias to /src
-
-export default {
-  name: "IACInformation",
-  components: {
-  },
-};
+<script setup>
+import ContentPageLayout from '@/layouts/ContentPageLayout.vue'
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped lang="scss">
-
-</style>
-
-
-

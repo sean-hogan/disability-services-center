@@ -1,18 +1,12 @@
 <template>
-  <div class="JobSearchResources section container pb-5">
-    <div class="row pt-5">
-
- <div class="clearfix d-flex justify-content-center">
-        <div class="col-sm-10">
-
-
-
-
-        <div class="header mb-4">
+<ContentPageLayout>
+  <template #header>
           <h1 class="display-2">Job Search Resources</h1>
-        </div>
+  </template>
+     
+  <template #content>
 
-      <p class="lead">Job searching is a daunting task no matter what situation you find yourself in. These resources can help you navigate switching or advancing your career</p>
+  <p class="lead">Job searching is a daunting task no matter what situation you find yourself in. These resources can help you navigate switching or advancing your career</p>
 
 <h2>Job Search Resources</h2>
 
@@ -32,30 +26,15 @@ This is a job search website which focuses on the employment of individuals with
 A yearly recruitment program which connects federal and private sector employers to current college students or recent graduates for summer or permanent job opportunities. CSU-Global participates in this program which begins around September of every year. If you are interested in participating in the WRP, please email <a href="mailto:ada@csuglobal.edu">ada@csuglobal.edu</a>.</p>
 
     
-  </div><!--end col-->
-    </div><!--end clearfix-->
-    </div><!--end row-->
-    
-  </div><!--End Container -->
-
-
+  </template>
+</ContentPageLayout>
 </template>
 
 
-<script>
-// @ is an alias to /src
-
-export default {
-  name: "JobSearchResources",
-  components: {
-  },
-};
+<script setup>
+import ContentPageLayout from '@/layouts/ContentPageLayout.vue'
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped lang="scss">
-
-</style>
 
 
 

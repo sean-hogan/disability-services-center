@@ -1,14 +1,10 @@
 <template>
-
-
-<div class="sensusaccess section container pb-5">
-  <div class="row pt-5">
-
- <div class="clearfix d-flex justify-content-center">
-        <div class="col-sm-10">
-      <div class="header mb-4">
+<ContentPageLayout>
+  <template #header>
         <h1 class="display-2">SensusAccess</h1>
-      </div>
+  </template>
+     
+  <template #content>
 
       <p class="lead">SensusAccess is a web-based, self-service application for converting documents into a range of alternate media and accessible formats. The service is free and available 24/7.</p>
 
@@ -32,29 +28,11 @@
 <div class="ratio ratio-16x9">
 <iframe src="https://www.sensusaccess.com:347/web3/csuglobal/"></iframe>
 </div>
-
-
-        </div><!--end col-->
-  </div><!--/clear-->
-  </div><!--/row-->
-</div><!--/container-->
+  </template>
+</ContentPageLayout>
 </template>
 
 
-<script>
-// @ is an alias to /src
-
-export default {
-  name: "SensusAccess",
-  components: {
-  },
-};
+<script setup>
+import ContentPageLayout from '@/layouts/ContentPageLayout.vue'
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped lang="scss">
-
-</style>
-
-
-

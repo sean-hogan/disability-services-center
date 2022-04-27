@@ -1,50 +1,33 @@
 <template>
-  <div class="Temporary Conditions section container pb-5">
-    <div class="row pt-5">
+<ContentPageLayout>
+  <template #header>
+<h1 class="display-2">Temporary Accommodations and Services</h1>
+  </template>
+     
+  <template #content>
 
- <div class="clearfix d-flex justify-content-center">
-        <div class="col-sm-10">
+<p class="lead">Disability and Accessibility Services at CSU Global offers a variety of accommodations to qualified students with disabilities. Disability and Accessibility Services also recognizes that some students may experience temporary medical conditions due to injury, surgery, or short-term acute illness during their tenure at CSU Global. Temporary disabilities may include, but are not limited to: broken limbs, hand injuries, concussions, or short-term medical complications.
+</p>
 
-<div class="header mb-4">
-<h1 class="display-2">Temporary Conditions</h1>
-</div>
-
-<p class="lead">Students experiencing temporary injuries and medical conditions are not covered under federal disability laws.</p>
-<h2>Policies</h2>
-<p>Students who experience a temporary medical condition that affects their academic work during a trimester should contact their instructor and Student Success Counselor to discuss options. We also recommend students review information about the following helpful policies:
-</p><ul>
-<li><a href="https://csuglobal.edu/student-policies/academic-expectations-policies" target="_blank">CSU Global Late Policy</a></li>
+<p>Students who experience a temporary medical condition that affects their academic work during a trimester should contact their instructor as soon as possible. CSU Global has late, incomplete, and leave of absence policies that may provide the student with the additional time necessary to complete their coursework. Student Success Counselors can also assist students with policies and options.</p>
+<ul>
+<li><a href="https://csuglobal.edu/student-policies/academic-expectations-policies" target="_blank">Late Policy</a></li>
 <li><a href="https://csuglobal.edu/student-policies/credit-and-grading-system-policies" target="_blank">Incomplete Grade Guidelines</a></li>
-<li><a href="https://csuglobal.edu/student-policies/enrollment-status-policies" target="_blank">Leave of Absence Policy</a></li>
+<li><a href="https://csuglobal.edu/student-policies/enrollment-status-policies" target="_blank">Leave of Absence</a></li>
 </ul><p></p>
-<p>An instructor may request medical documentation specifying the condition and duration of the condition.</p>
-<p>Medical conditions that are considered temporary can include injuries, surgeries, or acute illnesses. If a student feels their attendance will be affected by a temporary medical condition, it is up to the student to contact their instructor and Student Success Counselor.</p>
-<p><router-link to="/contact-us"><button type="button" class="btn btn-primary rounded-pill">Contact Us</button></router-link></p>
-    
-  </div><!--end col-->
-    </div><!--end clearfix-->
-    </div><!--end row-->
-    
-  </div><!--End Container -->
+<p>The Americans with Disabilities Act does not consider temporary illnesses or conditions as disabilities. However, some students experiencing temporary medical conditions may need access to accommodations similar to students with disabilities. Disability and Accessibility Services may be able to offer limited services to students with temporary medical conditions.</p>
+To request temporary accommodations, a student must contact Disability and Accessibility Services, submit medical documentation, and complete two eForms (the Request for Academic Accommodations and the Informed Consent for Information Release). The medical documentation should address how the student is being impacted in the academic setting as a result of the illness or injury and provide a recommendation for accommodations. 
+<p>Documentation must include a specific condition, expected duration, as well as the name, professional credentials, address, and telephone of the professional. After reviewing the forms and documentation, Disability and Accessibility Services will determine appropriate temporary academic accommodations.</p>
 
-
+<p>Students should contact Disability and Accessibility Services as soon as possible to discuss if temporary accommodations are a good option based on their circumstances. Accommodations are not retroactive in coursework.</p>
+  </template>
+</ContentPageLayout>
 </template>
 
 
-<script>
-// @ is an alias to /src
-
-export default {
-  name: "TemporaryConditions",
-  components: {
-  },
-};
+<script setup>
+import ContentPageLayout from '@/layouts/ContentPageLayout.vue'
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped lang="scss">
-
-</style>
 
 
 

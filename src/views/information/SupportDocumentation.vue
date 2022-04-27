@@ -1,16 +1,10 @@
 <template>
-  <div class="SupportDocumentation section container pb-5">
-    <div class="row pt-5">
-
- <div class="clearfix d-flex justify-content-center">
-        <div class="col-sm-10">
-
-
-
-
-        <div class="header mb-4">
+<ContentPageLayout>
+  <template #header>
           <h1 class="display-2">Support Documentation</h1>
-        </div>
+  </template>
+     
+  <template #content>
         
 
 
@@ -37,31 +31,18 @@ Once you are approved for academic accommodations, prior to the beginning of eac
 
 <p><router-link to="/contact-us"><button type="button" class="btn btn-primary rounded-pill">Contact Us</button></router-link></p>
 
-    
-  </div><!--end col-->
-    </div><!--end clearfix-->
-    </div><!--end row-->
-    
-  </div><!--End Container -->
-
-
+  </template>
+</ContentPageLayout>
 </template>
 
 
-<script>
-// @ is an alias to /src
-
-export default {
-  name: "SupportDocumentation",
-  components: {
-  },
-};
+<script setup>
+import ContentPageLayout from '@/layouts/ContentPageLayout.vue'
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped lang="scss">
 
-</style>
+
+
 
 
 

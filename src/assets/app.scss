@@ -1,9 +1,17 @@
+//old cools
 $red: #9e1831;
 $grey: rgb(242, 242, 242);
-$darkblue: #1c2333;
+$darkblue: #262262;
 $lightblue: #0000AD;
+//other cools
+$smoky-black: hsla(0, 0%, 7%, 1);
+$prussian-blue: hsla(215, 55%, 24%, 1);
+$opera-mauve: hsla(328, 31%, 63%, 1);
+$uranian-blue: hsla(205, 100%, 86%, 1);
+$white: hsla(0, 0%, 100%, 1);
+//properties
 $enable-rounded: false;
-$primary: $lightblue;
+$primary: $darkblue;
 $info:$darkblue;
 //gen styles
 #app .section {

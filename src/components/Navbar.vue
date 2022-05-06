@@ -39,7 +39,6 @@
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><router-link class="dropdown-item" to="/information/academic-accomodations">Academic Accommodations</router-link></li>
-            <li><router-link class="dropdown-item" to="/information/academic-requirements">Academic Requirements</router-link></li>
             <li><router-link class="dropdown-item" to="/information/faculty-notification">Faculty Notification</router-link></li>
             <li><a class="dropdown-item" href="https://csuglobal.libguides.com/ld.php?content_id=56545145" target="_blank">Disability Services Handbook</a></li>
             <li><router-link class="dropdown-item" to="/information/grievance-procedure">Grievance Procedure</router-link></li>

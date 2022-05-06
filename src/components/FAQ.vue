@@ -41,7 +41,7 @@
       </button>
     </h3>
     <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">Please refer to the to <router-link to="/registration">Register with Disability and Accessibility Services and Request Academic Accommodations</router-link> section of this page for this information.
+      <div class="accordion-body">Register with us, and submit course accommodation paperwork through the student portal. Refer to the to <router-link to="/registration">Registering And Requesting Accommodations</router-link> page for more information.
 
         </div>
     </div>
@@ -54,7 +54,7 @@
       </button>
     </h3>
     <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">No. It is your choice which courses to use approved accommodations. If you choose to use your accommodations in a course, it is your responsibility to request a Faculty Notification letter from Disability and Accessibility Services and then share that letter with your faculty. Faculty must honor accommodations once you send the Faculty Notification Letter. If you wait to send the letter until week 5 of the term, the accommodations will not be retroactive to the completed weeks of the term.</div>
+      <div class="accordion-body"><b>No</b>. It is your choice which courses to use approved accommodations. If you choose to use your accommodations in a course, you must request a Faculty Notification letter from Disability and Accessibility Services and then share that letter with your faculty. Faculty must honor accommodations once you send the Faculty Notification Letter. If you wait to send the letter until week 5 of the term, the accommodations will not be retroactive to the completed weeks of the term.</div>
     </div>
   </div><!--end accordion item-->
 
@@ -65,7 +65,7 @@
       </button>
     </h3>
     <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">Please refer to the <router-link to="/information/faculty-notification">Faculty Notification Letters and Using Accommodations Each Term</router-link> section of this page for this information. 
+      <div class="accordion-body">Faculty Notification Letters are the form you will use to notify faculty of approved academic accommodations. Refer to the <router-link to="/information/faculty-notification">Faculty Notification Letters and Using Accommodations Each Term</router-link> page for more information. 
       </div>
     </div>
   </div><!--end accordion item-->

@@ -31,12 +31,6 @@ const routes = [{
             import ( /* webpackChunkName: "information" */ '../views/information/AcademicAccomodations.vue')
     },
     {
-        path: '/information/academic-requirements',
-        name: 'AcademicRequirements',
-        component: () =>
-            import ( /* webpackChunkName: "information" */ '../views/information/AcademicRequirements.vue')
-    },
-    {
         path: '/information/grievance-procedure',
         name: 'GrievanceProcedure',
         component: () =>

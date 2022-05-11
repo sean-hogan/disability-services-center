@@ -2,6 +2,18 @@
 <ContentPageLayout>
   <template #header>
     <h1 class="display-2">Registering And Requesting Accommodations</h1>
+    <div class="dot-wrapper">
+    <span class="dot-1 ms-4">1</span>
+    <span class="line"></span>
+    <span class="dot-2">2</span>
+    <span class="line"></span>
+    <span class="dot-3 me-4">3</span>
+    </div>
+    <div class="line-wrapper my-4">
+      <div>Get In touch by phone or email </div>
+      <div>Complete documentation</div>
+      <div>Receive Confirmation & Approval</div>
+    </div>
   </template>
      
   <template #content>
@@ -58,3 +70,59 @@
 <script setup>
 import ContentPageLayout from '@/layouts/ContentPageLayout.vue'
 </script>
+
+<style scoped>
+.dot-1 {
+  height: 10rem;
+  width: 10rem;
+  background-color: #1c2333;
+  border-radius: 50%;
+  display: flex;
+  color:#fff;
+  justify-content: center;
+  align-items: center;
+  font-size:3rem;
+}
+.dot-2 {
+  height: 10rem;
+  width: 10rem;
+  background-color: hsla(205, 100%, 86%, 1);;
+  border-radius: 50%;
+  display: flex;
+  color:#1c2333;
+  border:2px solid #1c2333;
+  justify-content: center;
+  align-items: center;
+  font-size:3rem;
+}
+.dot-3 {
+  height: 10rem;
+  width: 10rem;
+  border:2px solid #1c2333;
+  border-radius: 50%;
+  display: flex;
+  color:#1c2333;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size:3rem;
+}
+.dot-wrapper {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  gap:1rem;
+}
+.line-wrapper {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  gap:1rem;
+}
+.line {
+  flex-grow: 1;
+  border-bottom: 5px solid #1c2333;
+  height:1px;
+}
+</style>

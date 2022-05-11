@@ -5,6 +5,9 @@
   </template>
      
   <template #content>
+    <p class="lead">
+      To register with our office, submit accommodation request paperwork through the student portal. Refer to the to <router-link to="/registration">Registering And Requesting Accommodations</router-link> page for more information.
+    </p>
 
         
 				<p class="lead">Academic accommodations at CSU Global focus on providing equal access to students with disabilities in an online education environment. Reasonable accommodations may consist of changes in policies, practices, services, and the use of auxiliary aids. These may include but are not limited to:</p>

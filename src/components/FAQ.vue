@@ -41,7 +41,7 @@
       </button>
     </h3>
     <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">Register with us, and submit course accommodation paperwork through the student portal. Refer to the to <router-link to="/registration">Registering And Requesting Accommodations</router-link> page for more information.
+      <div class="accordion-body">Register with us, and submit accommodation request paperwork through the student portal. Refer to the to <router-link to="/registration">Registering And Requesting Accommodations</router-link> page for more information.
 
         </div>
     </div>

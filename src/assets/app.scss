@@ -6,13 +6,12 @@ $lightblue: #0000AD;
 //other cools
 $smoky-black: hsla(0, 0%, 7%, 1);
 $prussian-blue: hsla(215, 55%, 24%, 1);
-$opera-mauve: hsla(328, 31%, 63%, 1);
 $uranian-blue: hsla(205, 100%, 86%, 1);
 $white: hsla(0, 0%, 100%, 1);
 //properties
 $enable-rounded: false;
-$primary: $darkblue;
-$info:$darkblue;
+$primary: $prussian-blue;
+$info:$prussian-blue;
 //gen styles
 #app .section {
     font-family: 'Source Sans Pro', sans-serif;

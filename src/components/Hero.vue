@@ -11,13 +11,9 @@
         </h1>
         <p class="lead">{{ body }}</p>
        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-        <router-link to="/registration">
-        <button type="button" class="btn btn-lg btn-primary mb-3 me-3 rounded-pill">Register With Us</button>
-        </router-link>
+        <router-link to="/registration" class="btn btn-lg btn-primary mb-3 me-3 rounded-pill">Register With Us</router-link>
   
-        <router-link to="/information/faculty-notification">
-        <button type="button" class="btn btn-lg btn-outline-primary rounded-pill mb-3">Faculty Notifications</button>
-        </router-link>
+        <router-link to="/information/faculty-notification" class="btn btn-lg btn-outline-primary rounded-pill mb-3">Faculty Notifications</router-link>
         </div>
       </div>
     </div>

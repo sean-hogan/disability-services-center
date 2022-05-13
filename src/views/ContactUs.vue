@@ -23,7 +23,7 @@
               <br />Aurora, CO 80011
               </li>
             </ul>
-            <button type="button" class="btn btn-lg btn-outline-primary rounded-pill me-3">Register With Us</button>
+            <button type="button" class="btn btn-lg btn-outline-primary rounded-pill me-3 mb-3 mb-lg-0">Register With Us</button>
             <button type="button" class="btn btn-lg btn-primary rounded-pill">Request Faculty Notification<i class="bi bi-envelope-fill ms-2"></i></button>
           </div>
         </div>

@@ -145,12 +145,23 @@ const router = createRouter({
         if (savedPosition) {
             return savedPosition
         } else if (to.hash) {
+            //reset focus
+            document.body.setAttribute("tabindex", "-1");
+            document.body.focus();
+            document.body.removeAttribute("tabindex");
+            console.log(from)
+            console.log(to);
             return {
                 el: to.hash,
                 behavior: 'smooth',
                 top: 100,
             }
         } else {
+            //reset focus
+            document.body.setAttribute("tabindex", "-1");
+            document.body.focus();
+            document.body.removeAttribute("tabindex");
+            //scroll to top
             return { left: 0, top: 0 }
         }
     }

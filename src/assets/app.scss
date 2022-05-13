@@ -2,7 +2,8 @@
 $red: #9e1831;
 $grey: rgb(242, 242, 242);
 $darkblue: #262262;
-$lightblue: #0000AD;
+$lightblue: hsla(205, 100%, 86%, 1);
+;
 //other cools
 $smoky-black: hsla(0, 0%, 7%, 1);
 $prussian-blue: hsla(215, 55%, 24%, 1);
@@ -60,15 +61,15 @@ $info:$prussian-blue;
     color: #fff;
 }
 
-#app .btn-primary:hover,
-#app .btn-outline-info:hover {
+#app .btn-primary:hover {
     background-color: #fff;
     color: $primary;
     border-color: $primary;
 }
 
 #app .btn-outline-primary:hover {
-    color: #fff;
+    background-color: $lightblue;
+    color: $primary;
 }
 
 //grey bg

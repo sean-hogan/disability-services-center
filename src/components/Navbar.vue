@@ -1,16 +1,20 @@
 <template>
     <nav class="navbar navbar-expand-lg navbar-light bg-white px-5 pb-0">
       <div class="container flex-wrap justify-content-start">
+        <!-- skip link -->
+        <router-link class="visually-hidden-focusable bg-grey" 
+        to="#main-content" 
+        @click="$emit('scrollFix','#main-content')">Skip to main content</router-link>
           <!---BRAND--->
 
       <router-link class="navbar-brand" to="/">
           <img src="https://libapps.s3.amazonaws.com/accounts/129967/images/CSUG_Seal_RGB.jpg" class="" width="65">Disability & Accessibility Services
       </router-link>
 
-      <div class="ms-auto d-flex flex-row">
+      <div class="ms-auto d-flex flex-row mb-3 mb-lg-0">
 
       <router-link class="btn btn-primary rounded-pill me-2 menu-link" to="/registration">Register with Us</router-link>
-      <router-link class="btn btn-outline-info rounded-pill me-2 menu-link" to="/contact-us">Contact Us</router-link>
+      <router-link class="btn btn-outline-primary rounded-pill me-2 menu-link" to="/contact-us">Contact Us</router-link>
 
 
 
@@ -30,7 +34,7 @@
           
 
 
-      <ul class="navbar-nav mb-0 mt-3 d-flex flex-row w-100">
+      <ul class="navbar-nav mb-0 mt-3 w-100">
 
            
         <li class="nav-item dropdown px-3">
@@ -86,7 +90,7 @@
           </ul>
         </li>
             
-        <li class="nav-item px-3 ms-auto">
+        <li class="nav-item px-3 ms-lg-auto">
         <router-link class="nav-link menu-link" to="/services/student-assistance-program">Counseling Support</router-link>
         </li>
 
@@ -131,11 +135,12 @@ export default {
 	font-weight: 700;
 	font-style: normal;
 	font-size: 1.8rem;
-  color: #0000AD;
+  color: hsla(215, 55%, 24%, 1);
 }
 
 #app .navbar-brand:hover {
   color:#1c2333;
+  text-decoration: underline;
 }
 
 #app .nav-link:not(.btn) {
@@ -147,18 +152,18 @@ export default {
   margin-bottom:0px;
 }
 
-#app .dropdown-menu{
-  margin:0px;
-  border:0px;
-  background-image: linear-gradient(#fff, #fff), 
-        linear-gradient(45deg, #fff722, #ff26f9),linear-gradient(142deg, transparent, white),linear-gradient(108deg, red, transparent);
-    background-clip: content-box, padding-box;
-}
+// #app .dropdown-menu{
+//   margin:0px;
+//   border:0px;
+//   background-image: linear-gradient(#fff, #fff), 
+//         linear-gradient(45deg, #fff722, #ff26f9),linear-gradient(142deg, transparent, white),linear-gradient(108deg, red, transparent);
+//     background-clip: content-box, padding-box;
+// }
 
 
-.btn:focus, .btn {
-  box-shadow:none!important;
-}
+// .btn:focus, .btn {
+//   box-shadow:none!important;
+// }
 
 .nav-link:not(.btn),
 .dropdown-item { 
@@ -175,9 +180,11 @@ export default {
 .visually-hidden-focusable {
   position:absolute;
   left:10%;
+  top:1%;
   padding:2rem;
   transform: translateY(-100%);
   transition: transform 0.3s;
+  z-index: 1;
 }
 
 .visually-hidden-focusable:focus {

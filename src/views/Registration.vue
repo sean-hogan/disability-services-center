@@ -2,18 +2,30 @@
 <ContentPageLayout>
   <template #header>
     <h1 class="display-2">Registering And Requesting Accommodations</h1>
-    <div class="dot-wrapper">
-    <span class="dot-1 ms-4">1</span>
-    <span class="line"></span>
-    <span class="dot-2">2</span>
-    <span class="line"></span>
-    <span class="dot-3 me-4">3</span>
-    </div>
-    <div class="line-wrapper my-4">
-      <div>Get In touch by phone or email </div>
-      <div>Complete documentation</div>
-      <div>Receive Confirmation & Approval</div>
-    </div>
+    <ol class="dot-wrapper my-5">
+        <li>
+          <span class="dot-1">1</span>
+          <span>Get In touch by phone or email</span>
+        </li>
+
+        <span class="line d-none d-lg-flex"></span>
+
+        <li>
+          <span class="dot-2">2</span>
+          <span>Complete documentation</span>
+        </li>
+
+        <span class="line d-none d-lg-flex"></span>
+
+      <li>
+        <span class="dot-3">3</span>
+        <span>Receive Confirmation & Approval</span>
+      </li>
+    
+    
+    
+    
+    </ol>
   </template>
      
   <template #content>
@@ -75,7 +87,7 @@ import ContentPageLayout from '@/layouts/ContentPageLayout.vue'
 .dot-1 {
   height: 10rem;
   width: 10rem;
-  background-color: #1c2333;
+  background-color: hsla(215, 55%, 24%, 1);
   border-radius: 50%;
   display: flex;
   color:#fff;
@@ -86,11 +98,11 @@ import ContentPageLayout from '@/layouts/ContentPageLayout.vue'
 .dot-2 {
   height: 10rem;
   width: 10rem;
-  background-color: hsla(205, 100%, 86%, 1);;
+  background-color: hsla(205, 100%, 86%, 1);
   border-radius: 50%;
   display: flex;
-  color:#1c2333;
-  border:2px solid #1c2333;
+  color:hsla(215, 55%, 24%, 1);
+  border:2px solid hsla(215, 55%, 24%, 1);
   justify-content: center;
   align-items: center;
   font-size:3rem;
@@ -98,10 +110,10 @@ import ContentPageLayout from '@/layouts/ContentPageLayout.vue'
 .dot-3 {
   height: 10rem;
   width: 10rem;
-  border:2px solid #1c2333;
+  border:2px solid hsla(215, 55%, 24%, 1);
   border-radius: 50%;
   display: flex;
-  color:#1c2333;
+  color: hsla(215, 55%, 24%, 1);
   justify-content: space-evenly;
   align-items: center;
   font-size:3rem;
@@ -112,17 +124,20 @@ import ContentPageLayout from '@/layouts/ContentPageLayout.vue'
   align-items: center;
   font-weight: 700;
   gap:1rem;
+  flex-wrap: wrap;
 }
-.line-wrapper {
+ol li {
   display:flex;
-  justify-content: space-between;
   align-items: center;
-  font-weight: 700;
+  flex-direction: column;
   gap:1rem;
 }
 .line {
   flex-grow: 1;
   border-bottom: 5px solid #1c2333;
   height:1px;
+}
+p:not(.lead) {
+  margin-top:2rem;
 }
 </style>

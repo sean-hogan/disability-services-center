@@ -1,5 +1,5 @@
 <template>
-<navbar></navbar>
+<navbar @scrollFix="scrollFix"></navbar>
   <router-view></router-view>
 <Footer></Footer>
 </template>
@@ -14,6 +14,16 @@ export default {
     Navbar,
     Footer,
   },
+  
+  methods: {
+    scrollFix: function(hashbang) {
+      window.location.hash = hashbang;
+    }
+  },
+
+  mounted() {
+      setTimeout(() => this.scrollFix(this.$route.hash), 1);
+    },
 };
 </script>
 

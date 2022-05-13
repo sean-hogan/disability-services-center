@@ -4,7 +4,7 @@
 
  <div class="clearfix d-flex justify-content-center">
         <div class="col-sm-10">
-          <main id="main">
+          <main id="main-content">
         <header class="header mb-4">
     <slot name="header"></slot>
         </header>

@@ -6,10 +6,10 @@
     <div class="row py-5">
       
       <div class="col-12 col-lg-8">
-        <h1 class="hero-title lh-1 mb-3">{{ title }}
+        <h1 class="hero-title lh-1 mb-3 text-center text-lg-start">{{ title }}
           
         </h1>
-        <p class="lead">{{ body }}</p>
+        <p class="lead text-center text-lg-start">{{ body }}</p>
        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
         <router-link to="/registration" class="btn btn-lg btn-primary mb-3 me-3 rounded-pill">Register With Us</router-link>
   

@@ -54,6 +54,7 @@ $info:$prussian-blue;
 //button styles
 #app .btn {
     font-weight: 700;
+    padding-inline: 30px;
 }
 
 #app .btn-primary,
@@ -70,6 +71,11 @@ $info:$prussian-blue;
 #app .btn-outline-primary:hover {
     background-color: $lightblue;
     color: $primary;
+}
+
+//link styles
+#app a:not(.btn) {
+    color: #0d6efd;
 }
 
 //grey bg

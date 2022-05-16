@@ -8,10 +8,10 @@
           <!---BRAND--->
 
       <router-link class="navbar-brand" to="/">
-          <img src="https://libapps.s3.amazonaws.com/accounts/129967/images/CSUG_Seal_RGB.jpg" class="" width="65">Disability & Accessibility Services
+          <img src="https://libapps.s3.amazonaws.com/accounts/129967/images/CSUG_Seal_RGB.jpg" width="65">Disability & Accessibility Services
       </router-link>
 
-      <div class="ms-auto d-flex flex-row mb-3 mb-lg-0">
+      <div class="ms-lg-auto d-flex flex-row mb-3 mb-lg-0">
 
       <router-link class="btn btn-primary rounded-pill me-2 menu-link" to="/registration">Register with Us</router-link>
       <router-link class="btn btn-outline-primary rounded-pill me-2 menu-link" to="/contact-us">Contact Us</router-link>
@@ -21,16 +21,16 @@
       </div>
 
 
-        
       <!--hamburgler-->
         
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler ms-auto mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
 
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        
           
 
 
@@ -134,7 +134,6 @@ export default {
   font-family: industry, sans-serif;
 	font-weight: 700;
 	font-style: normal;
-	font-size: 1.8rem;
   color: hsla(215, 55%, 24%, 1);
 }
 
@@ -189,6 +188,12 @@ export default {
 
 .visually-hidden-focusable:focus {
   transform: translateY(0%);
+}
+
+@media (min-width: 992px) {
+  #app .navbar-brand {
+    font-size: 1.8rem;
+  }
 }
 
 </style>

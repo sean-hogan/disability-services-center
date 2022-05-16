@@ -29,32 +29,6 @@
         </div>
       </div><!--/col-->
 
-      <!-- <div class="col">
-        <div class="card mb-4 h-100">
-          <div class="card-body p-4">
-            <h2 class="card-title">COUNSELING SERVICES</h2>
-            
-              <p>CSU Global has partnered with ESPYR to offer 24/7 Counseling Services. Simply <a href="tel:1-866-734-5890">call the counseling number at (866) 734-5890</a> or go to the Student Assistance Portal and select "Contact Us".</p>
-
-                <p><i class="bi bi-phone"></i>&nbsp;&nbsp;<a href="tel:1-866-734-5890">(866) 734-5890</a></p>
-                <div>
-
-
-              
-                <form action="https://care.espyr.com" method="post">
-                <input name="password" value="CSUGlobal" type="hidden">
-                <button type="submit" class="btn btn-lg btn-outline-primary rounded-pill" formtarget="_blank">Go To Counseling Services <i class="bi bi-box-arrow-up-right ms-2"></i></button>
-                </form>
-                </div>
-                
-
-          </div>
-        </div> -->
-      <!-- </div> -->
-      <!--/col-->
-
-
-
     </div><!--end row-->
     
 

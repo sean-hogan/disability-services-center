@@ -1,5 +1,5 @@
 <template>
-<section class="faq section" id="faq" aria-labelledby="faq-heading">
+<section class="faq section mb-5" id="faq" aria-labelledby="faq-heading">
 
 <div class="container px-4 py-5">
   <div class="text-center">

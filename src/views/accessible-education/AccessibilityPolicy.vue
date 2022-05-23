@@ -1,7 +1,7 @@
 <template>
 <ContentPageLayout>
   <template #header>
-<h1 class="display-2">Accessibility Policy</h1>
+<h1 class="display-2">Institutional Accessibility Policy</h1>
   </template>
      
   <template #content>

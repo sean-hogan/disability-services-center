@@ -23,8 +23,8 @@
               <br />Aurora, CO 80011
               </li>
             </ul>
-            <button type="button" class="btn btn-lg btn-outline-primary rounded-pill me-3 mb-3 mb-lg-0">Register With Us</button>
-            <button type="button" class="btn btn-lg btn-primary rounded-pill">Request Faculty Notification<i class="bi bi-envelope-fill ms-2"></i></button>
+            <router-link to="/registration" class="btn btn-lg btn-outline-primary rounded-pill me-3 mb-3 mb-lg-0">Register With Us</router-link>
+            <a href="mailto:ADA@csuglobal.edu?subject=Faculty%20Notification%20Request&body=Hi%20There,%20I%20would%20like%20to%20request%20a%20faculty%20notification%20letter%20for%20my%20courses." class="btn btn-lg btn-primary rounded-pill">Request Faculty Notification<i class="bi bi-envelope-fill ms-2"></i></a>
           </div>
         </div>
       </div><!--/col-->

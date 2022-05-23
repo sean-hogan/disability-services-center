@@ -43,8 +43,8 @@
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><router-link class="dropdown-item" to="/information/academic-accomodations">Academic Accommodations</router-link></li>
-            <li><router-link class="dropdown-item" to="/information/faculty-notification">Faculty Notification</router-link></li>
-            <li><a class="dropdown-item" href="https://csuglobal.libguides.com/ld.php?content_id=56545145" target="_blank">Disability Services Handbook</a></li>
+            <li><router-link class="dropdown-item" to="/information/faculty-notification">Faculty Notification Letters</router-link></li>
+            <li><a class="dropdown-item" href="https://csuglobal.libguides.com/ld.php?content_id=56545145" target="_blank">Disability & Accessibility Services Handbook</a></li>
             <li><router-link class="dropdown-item" to="/information/grievance-procedure">Grievance Procedure</router-link></li>
             <li><router-link class="dropdown-item" to="/information/support-documentation">Support Documentation</router-link></li>
             <li><router-link class="dropdown-item" to="/information/temporary-conditions">Temporary Accommodations and Services</router-link></li>
@@ -70,7 +70,7 @@
             Accessible Education
           </router-link>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><router-link class="dropdown-item" to="/accessible-education/accessibility-policy">Accessibility Policy</router-link></li>
+            <li><a class="dropdown-item" href="https://csuglobal.edu/student-policies/institutional-accessibility-policy">Institutional Accessibility Policy</a></li>
             <li><router-link class="dropdown-item" to="/accessible-education/iac-information">Institutional Accessibility Committee</router-link></li>
             <li><router-link class="dropdown-item" to="/accessible-education/assistive-tools-and-resources">Assistive Tools & Resources</router-link></li>
             <li><router-link class="dropdown-item" to="/accessible-education/role-of-faculty-and-staff">Role of Faculty & Staff</router-link></li>

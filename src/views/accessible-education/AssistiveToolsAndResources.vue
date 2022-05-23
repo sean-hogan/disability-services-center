@@ -8,7 +8,7 @@
 
   <template #content>		
 
-<p class="lead">Please note: The resources listed may be available at no cost to CSU-Global students. More advanced versions of these resources/services may also be available and require payment by the user. CSU-Global assumes no responsibility for any costs associated with these resources as the financial responsibility falls to the student. In addition, the inclusion of these resources and services does not imply endorsement or recommendation by CSU-Global. CSU-Global recommends that any student who is considering accessing any resource or service conduct appropriate research to confirm legitimacy and personal applicability.</p>
+<p class="lead">Please note: The resources listed may be available at no cost to CSU Global students. More advanced versions of these resources/services may also be available and require payment by the user. CSU Global assumes no responsibility for any costs associated with these resources as the financial responsibility falls to the student. In addition, the inclusion of these resources and services does not imply endorsement or recommendation by CSU Global. CSU Global recommends that any student who is considering accessing any resource or service conduct appropriate research to confirm legitimacy and personal applicability.</p>
 
 
 <h2>Screen Readers</h2>

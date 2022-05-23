@@ -41,7 +41,7 @@
       </button>
     </h3>
     <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">Register with us, and submit accommodation request paperwork through the student portal. Refer to the to <router-link to="/registration">Registering And Requesting Accommodations</router-link> page for more information.
+      <div class="accordion-body">Connect with our office and submit accommodation request paperwork through the student portal. Refer to the to <router-link to="/registration">Registering And Requesting Accommodations</router-link> page for more information.
 
         </div>
     </div>
@@ -65,7 +65,7 @@
       </button>
     </h3>
     <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">Faculty Notification Letters are the form you will use to notify faculty of approved academic accommodations. Refer to the <router-link to="/information/faculty-notification">Faculty Notification Letters and Using Accommodations Each Term</router-link> page for more information. 
+      <div class="accordion-body">Faculty Notification Letters are the form you use to notify faculty of approved academic accommodations. Refer to the <router-link to="/information/faculty-notification">Faculty Notification Letters and Using Accommodations Each Term</router-link> page for more information. 
       </div>
     </div>
   </div><!--end accordion item-->

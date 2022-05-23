@@ -5,7 +5,7 @@
     <ol class="dot-wrapper my-5">
         <li>
           <span class="dot-1">1</span>
-          <span>Get In touch by phone or email</span>
+          <span>Get in touch by phone or email</span>
         </li>
 
         <span class="line d-none d-lg-flex"></span>
@@ -19,7 +19,7 @@
 
       <li>
         <span class="dot-3">3</span>
-        <span>Receive Confirmation & Approval</span>
+        <span>Receive confirmation & approval</span>
       </li>
     
     
@@ -35,9 +35,9 @@
 
 
 <!-- <h2>Register With Us</h2> -->
-<p><b>1. Self-identify as a student with a disability to Disability Services.</b></p> 
+<p><b>1. Self-identify as a student with a disability to Disability and Accessibility Services.</b></p> 
 <ul>
-<li>Email <a href="mailto:ada@csuglobal.edu">ada@csuglobal.edu</a> or call (720) 279-0650. We will connect with you over phone or email to review the accommodations process, required paperwork, and answer any questions you have. You will also receive the Disability Services Handbook.</li>
+<li>Email <a href="mailto:ada@csuglobal.edu">ada@csuglobal.edu</a> or call (720) 279-0650. We will connect with you over phone or email to review the accommodations process, required paperwork, and answer any questions you have. You will also receive the Disability and Accessibility Services Handbook.</li>
 </ul>
 
 <p><b>2. Complete and submit all required documents to Disability and Accessibility Services through your Student Portal Document Center. We need to receive the following documents from you:</b></p>
@@ -48,7 +48,7 @@
 <li>Informed Consent for Information Release eForm
 <br />Disability and Accessibility Services will add this eForm to your Student Portal Document Center to complete and submit. This form authorizes the release of information regarding a student condition or disability to appropriate personnel strictly for the purposes of providing and/or coordinating academic services for reasonable accommodation requests.</li>
 <li>Medical/Disability Documentation (from a third party provider)
-<br />Disability and Accessibility Services will add a placeholder to your Student Portal Document Center to upload this required paperwork. Our full Documentation Guidelines are in the Disability Services Handbook. The guidelines review the information documentation should include so our office can determine academic accommodations. The Documentation Guidelines are extensive, but to summarize on the most important points, the documentation should include the following information:
+<br />Disability and Accessibility Services will add a placeholder to your Student Portal Document Center to upload this required paperwork. Our full Documentation Guidelines are in the Disability and Accessibility Services Handbook. The guidelines review the information documentation should include so our office can determine academic accommodations. The Documentation Guidelines are extensive, but to summarize on the most important points, the documentation should include the following information:
 <ul>
 <li>Diagnosis of disability by an appropriate professional (e.g., medical doctor, psychologist, psychiatrist, licensed counselor).</li>
 <li>Information about what you experience in an academic setting in relation to the diagnosis and/or a recommendation for academic accommodations for coursework while attending CSU Global.</li>
@@ -62,12 +62,12 @@
 
 <p><b>3. Disability and Accessibility Services will confirm receipt of all documents. Once all documents have been submitted, a file review to determine academic accommodations is completed within 5 business days.</b></p>
 
-<h2>Approval</h2>
+<h2>Notification of Approved or Denied Accommodations</h2>
 
 <p>Once the file review is completed, Disability and Accessibility Services will send you an email notification detailing whether accommodations have been approved, denied, or if more information is needed.</p>
 
 <ul>
-<li>If academic accommodations are approved, you will receive a “Student Notification of Academic Accommodations” form over email, detailing the accommodations that have been approved. To accept the accommodations, please sign and return the Student Notification form to Disability and Accessibility Services over email at ada@csuglobal.edu or fax to 720-943-2863.</li>
+<li>If academic accommodations are approved, you will receive a “Student Notification of Academic Accommodations” form over email, detailing the accommodations that have been approved. To accept the accommodations, please sign and return the Student Notification form to Disability and Accessibility Services over email at <a href="mailto:ada@csuglobal.edu">ada@csuglobal.edu</a> or fax to 720-943-2863.</li>
 
 <li>If you have questions or concerns about the approved accommodations, please communicate with Disability and Accessibility Services to determine options and next steps.</li>
   

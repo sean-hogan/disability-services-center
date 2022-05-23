@@ -13,7 +13,7 @@
        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
         <router-link to="/registration" class="btn btn-lg btn-primary mb-3 me-3 rounded-pill">Register With Us</router-link>
   
-        <router-link to="/information/faculty-notification" class="btn btn-lg btn-outline-primary rounded-pill mb-3">Faculty Notifications</router-link>
+        <a href="mailto:ADA@csuglobal.edu?subject=Faculty%20Notification%20Request&body=Hi%20There,%20I%20would%20like%20to%20request%20a%20faculty%20notification%20letter%20for%20my%20courses." class="btn btn-lg btn-outline-primary rounded-pill mb-3">Request Faculty Notification Letter</a>
         </div>
       </div>
     </div>

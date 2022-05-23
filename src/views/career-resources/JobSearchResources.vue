@@ -6,7 +6,7 @@
      
   <template #content>
 
-  <p class="lead">Job searching is a daunting task no matter what situation you find yourself in. These resources can help you navigate switching or advancing your career</p>
+  <p class="lead">Job searching is a daunting task no matter what situation you find yourself in. These resources are specifically focused on job searching and employment opportunities for people with disabilities.</p>
 
 <h2>Job Search Resources</h2>
 
@@ -23,7 +23,7 @@ Connects job seekers with Federal employment opportunities. Every person employe
 This is a job search website which focuses on the employment of individuals with disabilities. The Disability Job Exchange team also provides resume and career advice to job seekers.</p>
 
 <p><a href="https://www.wrp.gov/wrp">Workforce Recruitment Program</a><br>
-A yearly recruitment program which connects federal and private sector employers to current college students or recent graduates for summer or permanent job opportunities. CSU-Global participates in this program which begins around September of every year. If you are interested in participating in the WRP, please email <a href="mailto:ada@csuglobal.edu">ada@csuglobal.edu</a>.</p>
+A yearly recruitment program which connects federal and private sector employers to current college students or recent graduates for summer or permanent job opportunities. CSU Global participates in this program which begins around September of every year. If you are interested in participating in the WRP, please email <a href="mailto:ada@csuglobal.edu">ada@csuglobal.edu</a>.</p>
 
     
   </template>

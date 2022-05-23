@@ -6,7 +6,7 @@
      
   <template #content>
 
-  <p class="lead">If you would like to earn academic credit for your internship, <a href="https://globalconnect.csuglobal.edu/hub/csu_global/post/earn-academic-credit-from-your-internship">check out this article</a> and contact your Student Advisor to begin the application process. </p>
+  <p class="lead">The resources below focus on internship opportunities for students with disabilities. If you would like to earn academic credit through an internship, contact your Student Success Counselor for more information.</p>
 
   <h4>Internships and Professional Organizations</h4>
 

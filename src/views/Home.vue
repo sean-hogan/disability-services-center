@@ -2,7 +2,7 @@
   <div class="home">
   <Hero 
     title="Welcome"
-    body="Disability & Accessibility Services provides students with resources, guidance, and materials to help you achieve your academic goals" 
+    body="Disability and Accessibility Services is committed to individualized assistance that honors the uniqueness of each student. We collaborate with instructors, staff, and stakeholders to create effective, equitable, and inclusive learning environments so that you can achieve your educational goals." 
     imgsrc="hello.svg" />
   <main id="main-content">
   <FAQ />

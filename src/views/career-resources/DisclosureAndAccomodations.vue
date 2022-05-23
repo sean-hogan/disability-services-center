@@ -6,7 +6,7 @@
      
   <template #content>
 
-    <p class="lead">Rather than present a list of problems and expect an employer to find solutions, it is important to develop a strategy for disclosing a disability and requesting accommodations. These resources can help you understand and develop a strategy for requesting accomodations</p>
+    <p class="lead">Rather than present a list of problems and expect an employer to find solutions, it is important to develop a strategy for disclosing a disability and requesting accommodations. These resources can help you develop a plan to disclose a disability and request accommodations in your workplace.</p>
 
 <h2>Disclosure and Accommodations in the Workplace</h2>
 

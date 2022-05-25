@@ -6,7 +6,7 @@
      
   <template #content>
 
-  <p class="lead">Job searching is a daunting task no matter what situation you find yourself in. These resources are specifically focused on job searching and employment opportunities for people with disabilities.</p>
+  <p class="lead">These resources are specifically focused on job searching and employment opportunities for people with disabilities.</p>
 
 <h2>Job Search Resources</h2>
 
